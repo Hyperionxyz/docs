@@ -13,6 +13,7 @@
 * [Concentrated Liquidity](concepts/concentrated-liquidity.md)
 * [Fees](concepts/fees.md)
 * [Swap](concepts/swap.md)
+* [Liquidity Mining](concepts/liquidity-mining.md)
 * [Range Order](concepts/range-order.md)
 
 ## Guides

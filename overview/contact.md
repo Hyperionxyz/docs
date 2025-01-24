@@ -4,9 +4,11 @@ icon: monero
 
 # Contact
 
-Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Once published, your site will be accessible online only to your selected audience.
+Official Website: [https://hyperfluid.xyz/](https://hyperfluid.xyz/)
 
-You can publish your site and find related settings from your docs site's homepage.
+Email: contact@hyperfluid.xyz
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/publish-hero.png" alt=""><figcaption></figcaption></figure>
+Twitter: [https://x.com/Hyperfluidxyz](https://x.com/Hyperfluidxyz)
+
+Discord: [https://discord.com/invite/hyperfluid](https://discord.com/invite/hyperfluid)
 

@@ -2,22 +2,20 @@
 icon: bullseye-arrow
 ---
 
-# Quickstart
+# Introduction
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
+## **Overview**&#x20;
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+Hyperfluid is (https://hyperfluid.xyz/) a fully on-chain hybrid Orderbook-AMM DEX built natively for Aptos, leveraging its exceptional throughput and minimal latency to deliver a seamless trading experience for both professional and retail users. Hyperfluid aims to become the foundational trading engine on Aptos, offering a hybrid Orderbook-AMM DEX with competitive liquidity options and a seamless user experience for both professional and retail traders. In December 2024, Hyperfluid successfully raised pre-seed funding from Ankaa Labs and BlockBooster.
 
-{% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
-{% endhint %}
+## Team&#x20;
 
-### Import
+The project is led by a team of seasoned Web3 veterans with proven expertise in DeFi and blockchain ecosystems:
 
-GitBook supports importing content from many popular writing tools and formats. If your content already exists, you can upload a file or group of files to be imported.
+* Lark (Project Lead): Former leader of a flagship LSD project on a leading blockchain and core contributor at P12, specializing in data-driven growth strategies.
+* Mingxi (Tech Lead): Former Senior Architect at Baidu, with extensive experience in designing and implementing large-scale distributed systems.
+* Hayden (Smart Contract Lead): Early technical contributor to Aptos and Sui ecosystems, instrumental in building several core blockchain projects.
 
-<div data-full-width="false"><figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-import.png" alt=""><figcaption></figcaption></figure></div>
+## Incubation and Support&#x20;
 
-### Sync a repository
-
-GitBook also allows you to set up a bi-directional sync with an existing repository on GitHub or GitLab. Setting up Git Sync allows you and your team to write content in GitBook or in code, and never have to worry about your content becoming out of sync.
+Hyperfluid is incubated by BlockBooster and is part of Ankaa Accelerator Program. BlockBooster is a leading Web3 venture studio in Asia, backed by OKX Ventures and other industry leaders. Its portfolio includes notable projects such as 0G, BladeGames, and Equilibria.
