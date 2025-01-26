@@ -12,7 +12,5 @@
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-4. After everything is set up, confirm the swap to proceed with this transaction and you will receive your target asset in a few seconds
-
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+4. After everything is set up, confirm the swap to proceed with this transaction and you will receive your target asset in a few seconds.
 
