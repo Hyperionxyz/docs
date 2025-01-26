@@ -39,7 +39,7 @@
     * [Add Liquidity](developer/via-sdk/features-available/add-liquidity.md)
     * [Remove Liquidity](developer/via-sdk/features-available/remove-liquidity.md)
     * [Fee & Rewards](developer/via-sdk/features-available/fee-and-rewards.md)
-    * [Types](developer/via-sdk/features-available/types.md)
     * [Swap](developer/via-sdk/features-available/swap.md)
+    * [Types](developer/via-sdk/features-available/types.md)
 * [via Contract](developer/via-contract.md)
 * [Contract ErrorCode](developer/contract-errorcode.md)
