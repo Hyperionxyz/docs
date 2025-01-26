@@ -20,15 +20,15 @@
 
 * [FAQ](guides/faq.md)
 * [How to Swap](guides/how-to-swap.md)
-* [How to Add Liquidity](guides/how-to-add-liquidity.md)
-* [How to Remove Liquidity](guides/how-to-remove-liquidity.md)
+* [How to Create New Position](guides/how-to-create-new-position.md)
+* [How to Add/Remove Liquidity](guides/how-to-add-remove-liquidity.md)
 * [How to Create a New Pool](guides/how-to-create-a-new-pool.md)
 * [How to Place a Limit Order](guides/how-to-place-a-limit-order.md)
 
 ## Developer
 
 * [Dev Overview](developer/dev-overview.md)
-* [via SDK](developer/via-sdk/README.md)
+* [via SDK](developer/via-sdk.md)
   * [Getting Started](developer/via-sdk/getting-started.md)
   * [Prerequisites](developer/via-sdk/prerequisites.md)
   * [Features Available](developer/via-sdk/features-available/README.md)
