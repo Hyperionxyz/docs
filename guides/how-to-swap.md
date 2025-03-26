@@ -2,7 +2,7 @@
 
 
 
-1. Enter [**https://h**yperio&#x6E;**.xyz/swap**](https://hyperion.xyz/swap) and Connect your Wallet. We support many wallets, such as Mizu Wallet, Petra, OKX Wallet, Nightly, Pontem Wallet,etc. However, we will use Petra as an example to show
+1. Enter [https://hyperion.xyz/swap](https://hyperion.xyz/swap) and Connect your Wallet. We support many wallets, such as Mizu Wallet, Petra, OKX Wallet, Nightly, Pontem Wallet,etc. However, we will use Petra as an example to show
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
