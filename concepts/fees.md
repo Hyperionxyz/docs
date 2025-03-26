@@ -6,7 +6,7 @@ In our concentrated liquidity protocol, swap fees will be distributed proportion
 
 Unlike the common AMM contract which will automatically accrue new swap fees into the liquidity pool, in a concentrated liquidity protocol, swap fees are accumulated separately and liquidity providers can claim their fee earnings without withdrawing their liquidity.
 
-It is important to reiterate that the Hyperfluid protocol simply comprises a set of autonomous smart contracts deployed on Aptos, operated directly by users calling functions on it (which allows them to interact with other users and/or pool their own selected assets in a multi-party peer-to-peer manner). There is no further control by or interaction with the original entity which had deployed the smart contract, which entity solely functions as a provider of technical tools for users, and is not offering any sort of securities product or regulated service nor does it hold any user assets in custody.
+It is important to reiterate that the Hyperion protocol simply comprises a set of autonomous smart contracts deployed on Aptos, operated directly by users calling functions on it (which allows them to interact with other users and/or pool their own selected assets in a multi-party peer-to-peer manner). There is no further control by or interaction with the original entity which had deployed the smart contract, which entity solely functions as a provider of technical tools for users, and is not offering any sort of securities product or regulated service nor does it hold any user assets in custody.
 
 ## **Fee Tiers** <a href="#fee-tiers" id="fee-tiers"></a>
 
@@ -18,4 +18,4 @@ It is reasonable to anticipate that different types of token pairs tend to progr
 
 ## **Protocol Fees** <a href="#protocol-fees" id="protocol-fees"></a>
 
-To maintain a healthy economic model that is beneficial to the project's sustainable project treasury for its long term development, a certain percentage (20% by default) will be taken from swap fees of every transaction on Hyperfluid as the protocol fee.
+To maintain a healthy economic model that is beneficial to the project's sustainable project treasury for its long term development, a certain percentage (20% by default) will be taken from swap fees of every transaction on Hyperion as the protocol fee.

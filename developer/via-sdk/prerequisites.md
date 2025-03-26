@@ -10,7 +10,7 @@ npm i @hyperfluid/sdk
 
 ## 2. Setting Up Configuration
 
-Hyperfluid Typescript SDK now includes a default initialization method that allows for quick generation of the Hyperfluid SDK configuration. You can utilize the `src/config/initCetusSDK` method to swiftly initialize the configuration. You have the option to select either 'mainnet' or 'testnet' for the network.
+Hyperion Typescript SDK now includes a default initialization method that allows for quick generation of the Hyperion SDK configuration. You can utilize the `src/config/initCetusSDK` method to swiftly initialize the configuration. You have the option to select either 'mainnet' or 'testnet' for the network.
 
 ```typescript
 import { Network } from "@aptos-labs/ts-sdk";
@@ -19,4 +19,4 @@ import { initHyperfluidSDK } from '@hyperfluid/sdk'
 const cetusClmmSDK = initHyperfluidSDK({network: Network.MAINNET})
 ```
 
-Now, you can start using Hyperfluid SDK!
+Now, you can start using Hyperion SDK!

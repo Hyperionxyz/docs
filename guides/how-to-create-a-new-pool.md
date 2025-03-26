@@ -1,12 +1,12 @@
 # How to Create a New Pool
 
 {% hint style="info" %}
-Creating a new market on HyperFluid is completely permissionless now (currently live on Aptos). Project owners, token issuers or even community supporters can come onto HyperFluid to create a pool for a trading pair if the pool does not exist. Project owners and token issuers are usually persons who are most recommended to conduct the pool creation, because they usually have relatively sufficient initial liquidity to add to the pool, ensuring the pool can handle swaps well from the beginning.
+Creating a new market on Hyperion is completely permissionless now (currently live on Aptos). Project owners, token issuers or even community supporters can come onto Hyperion to create a pool for a trading pair if the pool does not exist. Project owners and token issuers are usually persons who are most recommended to conduct the pool creation, because they usually have relatively sufficient initial liquidity to add to the pool, ensuring the pool can handle swaps well from the beginning.
 {% endhint %}
 
 
 
-1. Under the Liquidity page [https://hyperfluid.xyz/liquidity](https://hyperfluid.xyz/liquidity), click “Create Pool” at the top right corner to enter the pool creation procedures. Before you create a new trading pool, you can search or scroll down the page to check if there’s an existing one.
+1. Under the Liquidity page [https://hyperion.xyz/liquidity](https://hyperion.xyz/liquidity), click “Create Pool” at the top right corner to enter the pool creation procedures. Before you create a new trading pool, you can search or scroll down the page to check if there’s an existing one.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -27,5 +27,5 @@ Creating a new market on HyperFluid is completely permissionless now (currently 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 6. You’ve entered all needed parameters, you can confirm to create the pool and approve your wallet to add initial liquidity.
-7. After a pool is created, it usually takes a few minutes for the pool to be displayed or searchable on the front end interface of HyperFluid. Users will be able to start enjoying swapping and LPing with this new market you just created.
+7. After a pool is created, it usually takes a few minutes for the pool to be displayed or searchable on the front end interface of Hyperion. Users will be able to start enjoying swapping and LPing with this new market you just created.
 

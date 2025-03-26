@@ -2,7 +2,7 @@
 
 ## **Introduction** <a href="#introduction" id="introduction"></a>
 
-The core innovation of Hyperfluid is allowing concentrated liquidity, whereby users may add their liquidity within custom price ranges. In AMM protocols, which are adopted by most of common decentralized exchanges nowadays, liquidity is distributed uniformly along the entire price curve (0, ∞).
+The core innovation of Hyperion is allowing concentrated liquidity, whereby users may add their liquidity within custom price ranges. In AMM protocols, which are adopted by most of common decentralized exchanges nowadays, liquidity is distributed uniformly along the entire price curve (0, ∞).
 
 The previous AMM liquidity distribution makes trading available across the full price interval between 0 and infinite upon simple deployment. However, in AMM pools, a significant portion of the liquidity was never utilized by actual transactions, which is a waste of provided liquidity to some extent.
 

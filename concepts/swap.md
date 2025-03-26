@@ -2,7 +2,7 @@
 
 Swaps are one of the most common interactions with a DEX. The mechanism of token swap is easy to understand, which is to sell the tokens that are currently owned by the swapper for the proportional amount of the destination tokens. In this process, a small percentage of swap fee will be deducted, which is the incentives to those liquidity providers.
 
-The execution of swaps in the Hyperfluid protocol supports both AMM and Orderbook models. In the AMM model, swaps are executed against a passive liquidity pool, with liquidity providers earning transaction fees proportional to the active liquidity they contribute. Meanwhile, the Orderbook model follows a first-in-first-out policy, where order timing plays a crucial role in execution priority. This dual approach offers users flexibility, allowing them to choose between automated liquidity provision and direct market orders based on their trading strategy.
+The execution of swaps in the Hyperion protocol supports both AMM and Orderbook models. In the AMM model, swaps are executed against a passive liquidity pool, with liquidity providers earning transaction fees proportional to the active liquidity they contribute. Meanwhile, the Orderbook model follows a first-in-first-out policy, where order timing plays a crucial role in execution priority. This dual approach offers users flexibility, allowing them to choose between automated liquidity provision and direct market orders based on their trading strategy.
 
 ## **Price Impact** <a href="#price-impact" id="price-impact"></a>
 

@@ -1,12 +1,8 @@
----
-icon: monero
----
-
 # Contact
 
-Official Website: [https://hyperfluid.xyz/](https://hyperfluid.xyz/)
+Official Website: [https://hyperion.xyz/](https://hyperion.xyz/)
 
-Email: contact@hyperfluid.xyz
+Email: contact@hyperion.xyz
 
 Twitter: [https://x.com/Hyperfluidxyz](https://x.com/Hyperfluidxyz)
 

@@ -20,6 +20,6 @@ For example, the current price of the BTC-USDC pool is 20,000 USDC/BTC. You pred
 
 ## **Position Management** <a href="#position-management" id="position-management"></a>
 
-One thing to note is that to ensure your range order is completely filled, you need to withdraw your position assets in time after your position range is crossed in case that the spot price re-enters the price range. This can be handled manually or be managed with the help of a third-party position manager protocol that has integrated Hyperfluid’s smart contract.
+One thing to note is that to ensure your range order is completely filled, you need to withdraw your position assets in time after your position range is crossed in case that the spot price re-enters the price range. This can be handled manually or be managed with the help of a third-party position manager protocol that has integrated Hyperion’s smart contract.
 
 Besides, it is up to liquidity providers on how to set the price range of a range order position. Setting a wider price interval may help you earn more transaction fees if price fluctuation is intense within your position range, while you need to bear a higher risk that your order cannot be completely filled if the price reserves before it crosses your full range.

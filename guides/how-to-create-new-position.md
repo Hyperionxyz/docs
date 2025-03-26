@@ -1,6 +1,6 @@
 # How to Create New Position
 
-1. Check out all the listed trading pools on HyperFluid and choose the assets pools that you want to provide liquidity. There are more pools to be shown on our dapp. And then click the "Create New Position" button.
+1. Check out all the listed trading pools on Hyperion and choose the assets pools that you want to provide liquidity. There are more pools to be shown on our dapp. And then click the "Create New Position" button.
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
