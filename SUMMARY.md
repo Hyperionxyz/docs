@@ -15,7 +15,7 @@
 * [Swap](concepts/swap.md)
 * [Liquidity Mining](concepts/liquidity-mining.md)
 * [Range Order](concepts/range-order.md)
-* [DRIP](concepts/drip.md)
+* [Drips](concepts/drips.md)
 
 ## Guides
 

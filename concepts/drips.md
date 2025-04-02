@@ -1,16 +1,16 @@
-# DRIP
+# Drips
 
 ### Introduction
 
-The DRIP System rewards users for actively participating in the ecosystem through liquidity provision, trading, and community growth via referrals.
+The Drips System rewards users for actively participating in the ecosystem through liquidity provision, trading, and community growth via referrals.
 
-DRIPs are calculated and accumulated daily based on user actions and can be used to unlock exclusive benefits and incentives within the platform.
+Drips are calculated and accumulated daily based on user actions and can be used to unlock exclusive benefits and incentives within the platform.
 
 ### Point Categories & Earning Mechanisms
 
-#### 1. Hyperion’s DRIP
+#### 1. Hyperion’s Drips
 
-Users earn Hyperion DRIP through providing liquidity and engaging in trading activity. DRIP are calculated daily and rounded down (floor).
+Users earn Hyperion Drip through providing liquidity and engaging in trading activity. Drips are calculated daily and rounded down (floor).
 
 #### A. Liquidity Provision (LP Points)
 
@@ -61,6 +61,6 @@ Users are rewarded for inviting others to the platform. Each user is assigned a 
 
 ### Multipliers & Bonus Mechanisms
 
-_Coming Soon_: DRIP will introduce point multipliers for consistent participation across trading and liquidity provision, along with seasonal or event-based point boosts.
+_Coming Soon_: Drips will introduce point multipliers for consistent participation across trading and liquidity provision, along with seasonal or event-based point boosts.
 
 ***
