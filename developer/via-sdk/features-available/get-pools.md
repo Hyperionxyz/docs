@@ -8,7 +8,7 @@ use `sdk.Pool.fetchAllPools`  method.
 
 ```typescript
 async function fetchAllPools() {
-    const poolItems = await sdk.pool.fetchAllPools();
+    const poolItems = await sdk.Pool.fetchAllPools();
     console.log(poolItems)
 }
 ```
@@ -19,7 +19,7 @@ async function fetchAllPools() {
 
 ```typescript
 async function fetchOnePool() {
-    const pool = await sdk.pool.fetchPoolById({
+    const pool = await sdk.Pool.fetchPoolById({
         poolId: '0xf108...876b5'
     })
 }
@@ -34,9 +34,9 @@ async function fetchOnePool() {
 
 ```javascript
 async function fetchOnePool() {
-    const pool = await sdk.pool.getPoolByTokenPairAndFeeTier({
+    const pool = await sdk.Pool.getPoolByTokenPairAndFeeTier({
         token1: '0x1::aptos_coin::AptosCoin',
-        token2: '0x6926bff1eab5554fa72ae167ed736acf623ab17fe81ebf2ea0d2138f8c533f77::type::T'
+        token2: '0x6926bff1eab5554fa72ae167ed736acf623ab17fe81ebf2ea0d2138f8c533f77::type::T',
         feeTier: FeeTierIndex["PER_0.01_SPACING_1"],
     })
 }
