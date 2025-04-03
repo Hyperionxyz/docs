@@ -28,7 +28,7 @@ use `sdk.pool.createPoolTransactionPayload` method.
 
 ```typescript
 
-import { FeeTierIndex, roundTickBySpacing } from "@hyperfluid/sdk";
+import { FeeTierIndex, roundTickBySpacing } from "@hyperionxyz/sdk";
 
 const currencyAAmount = Math.pow(10, 8);
 // currencyA's decimals is 8

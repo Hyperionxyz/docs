@@ -4,7 +4,7 @@
 
 {% code fullWidth="true" %}
 ```sh
-npm i @hyperfluid/sdk
+npm i @hyperionxyz/sdk
 ```
 {% endcode %}
 
@@ -14,9 +14,9 @@ Hyperion Typescript SDK now includes a default initialization method that allows
 
 ```typescript
 import { Network } from "@aptos-labs/ts-sdk";
-import { initHyperfluidSDK } from '@hyperfluid/sdk'
+import { initHyperionSDK } from '@hyperionxyz/sdk'
 
-const cetusClmmSDK = initHyperfluidSDK({network: Network.MAINNET})
+const sdk = initHyperionSDK({network: Network.MAINNET})
 ```
 
 Now, you can start using Hyperion SDK!
