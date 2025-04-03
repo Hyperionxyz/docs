@@ -26,3 +26,17 @@ async function fetchOnePool() {
 
 ```
 
+
+
+## 3. Get pool by token asset types and feeTier
+
+```javascript
+async function fetchOnePool() {
+    const pool = await sdk.pool.getPoolByTokenPairAndFeeTier({
+        token1: '0x1::aptos_coin::AptosCoin',
+        token2: '0x6926bff1eab5554fa72ae167ed736acf623ab17fe81ebf2ea0d2138f8c533f77::type::T'
+        feeTier: FeeTierIndex["PER_0.01_SPACING_1"],
+    })
+}
+```
+
