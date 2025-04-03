@@ -75,9 +75,7 @@ const params = {
 
 const payload = await sdk.Position.addLiquidityTransactionPayload(params)
 
-const { hash } = await AptosClient.submitAndSignTransaction({
-  data: payload
-})
+
 ```
 
 

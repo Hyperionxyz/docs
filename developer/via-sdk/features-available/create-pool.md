@@ -102,10 +102,6 @@ const payload = await sdk.Pool.createPoolTransactionPayload(params)
   ]
 }
 */
-
-const { hash } = await AptosClient.submitAndSignTransaction({
-  data: payload
-})
 ```
 
 
