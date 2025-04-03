@@ -30,6 +30,8 @@ async function fetchOnePool() {
 
 ## 3. Get pool by token asset types and feeTier
 
+(from v0.0.7)
+
 ```javascript
 async function fetchOnePool() {
     const pool = await sdk.pool.getPoolByTokenPairAndFeeTier({
