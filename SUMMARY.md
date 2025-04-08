@@ -53,4 +53,5 @@
     * [Remove liquidity](developer/via-contract/features-available/remove-liquidity.md)
     * [Collect fees](developer/via-contract/features-available/collect-fees.md)
     * [Collect rewards](developer/via-contract/features-available/collect-rewards.md)
+* [via API](developer/via-api.md)
 * [Contract ErrorCode](developer/contract-errorcode.md)
