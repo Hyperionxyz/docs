@@ -55,3 +55,7 @@
     * [Collect rewards](developer/via-contract/features-available/collect-rewards.md)
 * [via API](developer/via-api.md)
 * [Contract ErrorCode](developer/contract-errorcode.md)
+
+## Security
+
+* [Audits](security/audits.md)
