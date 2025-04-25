@@ -1,8 +1,8 @@
 # Audits
 
-### Movebit <a href="#jita" id="jita"></a>
+### MoveBit <a href="#jita" id="jita"></a>
 
-Auditor: Movebit
+Auditor: MoveBit
 
 Website: [https://movebit.xyz/](https://movebit.xyz/)
 
