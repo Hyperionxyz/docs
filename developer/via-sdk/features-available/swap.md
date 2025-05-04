@@ -19,7 +19,11 @@ const currencyAAmount = Math.pow(10,7)
 const { amountOut: currencyBAmount, path: poolRoute} = await sdk.Swap.estToAmount({
   amount: currencyAAmount,
   from: "0xa",
-  to: "0xc5bcdea4d8a9f5809c5c945a3ff5698a347afb982c7389a335100e1b0043d115"
+  to: "0xc5bcdea4d8a9f5809c5c945a3ff5698a347afb982c7389a335100e1b0043d115",
+  // safeMode
+  // if safeMode is true, only few swap token pairs will return path route
+  // default: true. support from (v0.0.12)
+  safeMode: false
 })
 
 /*
