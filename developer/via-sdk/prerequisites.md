@@ -2,11 +2,9 @@
 
 ## 1. NPM install
 
-{% code fullWidth="true" %}
 ```sh
-npm i @hyperionxyz/sdk
+$ pnpm i @hyperionxyz/sdk
 ```
-{% endcode %}
 
 ## 2. Setting Up Configuration
 
