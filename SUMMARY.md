@@ -59,3 +59,7 @@
 ## Security
 
 * [Audits](security/audits.md)
+
+## Resource
+
+* [Brand Asset](resource/brand-asset.md)
