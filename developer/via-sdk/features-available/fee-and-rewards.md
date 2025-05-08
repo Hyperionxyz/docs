@@ -6,9 +6,27 @@ When you add liquidity within a valid price range, all transaction fees generate
 
 You can get all pending/claimed fee info from method `sdk.Position.fetchPositionById` .
 
+## 2. Generate all rewards claim payload
+
+use `sdk.Position.claimAllRewardsTransactionPayload` method
+
+### Function Input Params
+
+* `positionId` : The pool's id
+* `recipient` : who will get this fee reward.
+
+### Example
+
+```typescript
+const payload = sdk.Position.claimAllRewardsTransactionPayload({
+    positionId: '',
+    recipient: ''
+})
+```
 
 
-## 2. Generate fee claim payload
+
+## 3. Generate fee claim payload
 
 use `sdk.Position.claimFeeTransactionPayload` method
 
@@ -28,7 +46,7 @@ const payload = sdk.Position.claimFeeTransactionPayload({
 
 
 
-## 3. Generate fee claim payload
+## 4. Generate fee claim payload
 
 use `sdk.Position.claimFeeTransactionPayload` method
 
