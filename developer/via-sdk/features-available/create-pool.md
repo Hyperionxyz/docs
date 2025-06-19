@@ -85,10 +85,7 @@ const payload = await sdk.Pool.createPoolTransactionPayload(params)
 /*
 {
   "function": "0xdd8d1a676801c6789fac9a06b8f6ced76f766c798f7e5ea276f25d80b9aa0af0::router_adapter::create_liquidity_entry",
-  "typeArguments": [
-    "0x1::aptos_coin::AptosCoin",
-    "0x6926bff1eab5554fa72ae167ed736acf623ab17fe81ebf2ea0d2138f8c533f77::type::T"
-  ],
+  "typeArguments": [],
   "functionArguments": [
     // Token A FA type
     '0xa',
