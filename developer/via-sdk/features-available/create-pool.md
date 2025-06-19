@@ -117,6 +117,43 @@ const payload = await sdk.Pool.createPoolTransactionPayload(params)
   ]
 }
 */
+
+// or
+
+/*
+{
+  "function": "0xdd8d1a676801c6789fac9a06b8f6ced76f766c798f7e5ea276f25d80b9aa0af0::router_adapter::create_liquidity_both_coin_entry",
+  "typeArguments": [
+     "0x1::aptos_coin::AptosCoin",
+     "0x6926bff1eab5554fa72ae167ed736acf623ab17fe81ebf2ea0d2138f8c533f77::type::T"
+   ],
+  "functionArguments": [
+    // feeTierIndex: it can be found from the table above.
+    1,
+    // Pool Type: a constant value, just set it to false
+    false,
+    
+    // the ticks must be greater and equal to 0
+    // If you want to pass a negative integer, please convert it to a unsigned integer.
+    // low price's tick
+    22410,
+    // high price's tick
+    25930,
+    // current price's tick
+    22940,
+    // Token A amount
+    100000000,
+    // Token B amount
+    200287120,
+    // Token A amount * (1 - slippage)
+    99900000,
+    // Token B amount * (1 - slippage)
+    200086833,
+    // Expiration time in second
+    4891474469
+  ]
+}
+*/
 ```
 
 
