@@ -28,7 +28,12 @@ use `sdk.pool.createPoolTransactionPayload` method.
 
 ```typescript
 
-import { FeeTierIndex, roundTickBySpacing } from "@hyperionxyz/sdk";
+import {
+  FeeTierIndex,
+  HighestTickByStep,
+  LowestTickByStep,
+  priceToTick,
+} from "@hyperionxyz/sdk"
 
 const currencyAAmount = Math.pow(10, 8);
 // currencyA's decimals is 8
@@ -36,6 +41,14 @@ const currencyAAmount = Math.pow(10, 8);
 const decimalsRatio = Math.pow(10, 8 - 6);
 const feeTierIndex = FeeTierIndex["PER_0.05_SPACING_5"]
 
+// To get the tick boundary of this feeTier
+const lowerTick = LowestTickByStep[feeTierIndex];
+const upperTick = HighestTickByStep[feeTierIndex];
+
+// 1 -443630 443630
+console.log(feeTierIndex, lowerTick, upperTick);
+
+// Or To calculate tick by price
 const currentPriceTick = priceToTick({
   price: 995,
   feeTierIndex,
