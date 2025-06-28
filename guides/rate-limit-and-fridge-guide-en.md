@@ -167,30 +167,3 @@ A dedicated page will be launched in the future showing:
 Rate limiting and fridge features are important security features of Hyperion DEX. They protect platform stability while ensuring your funds remain safe and accessible. By understanding and properly using these features, you can better manage your liquidity operations while contributing to the healthy development of the entire ecosystem.
 
 Remember: These limits aren't obstacles - they're protections. They ensure long-term market stability and benefit all participants.
-
----
-
-## Screenshot Requirements
-
-This document requires the following screenshots in `.gitbook/assets/ratelimit/en/` directory:
-
-1. **rate-limit-triggered.png** - Rate limit triggered notification
-   - Shows transaction restriction message
-   - Shows notification that funds have entered the fridge
-
-2. **fridge-entrance.png** - Fridge feature entrance
-   - Shows fridge access in navigation bar or menu
-   - Highlights how to access the fridge page
-
-3. **claim-all-funds.png** - Claim all funds interface
-   - Shows "Claim All Available" button
-   - Shows total claimable amount
-
-4. **claim-specific-box.png** - Individual box details page
-   - Shows box details (ID, amount, release time, etc.)
-   - Shows "Claim" button for individual box
-
-5. **fridge-overview.png** - Fridge overview page
-   - Shows list of all fridge boxes
-   - Shows status of each box (frozen/claimable)
-   - Shows countdown or release time
