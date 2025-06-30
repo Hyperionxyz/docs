@@ -1,6 +1,8 @@
 # Privacy Policy
 
-Last Updated: \[3 April 2025]
+Last Updated: April 11, 2025
+
+
 
 This Privacy Policy (“Policy”) describes the manner in which Hyperion (“Hyperion”, “we,” or “us”) and our Website at the [Website](https://hyperion.xyz/) use and collect data from individuals. This Policy, which is incorporated into and is subject to the Hyperion Terms of Service, describes the information that we gather from you on the Website, how we use and disclose such information, and the steps we take to protect such information.
 
