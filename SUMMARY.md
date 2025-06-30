@@ -68,3 +68,11 @@
 ## Resource
 
 * [Brand Asset](resource/brand-asset.md)
+
+## TERMS OF SERVICE
+
+* [Terms of Service](terms-of-service/terms-of-service.md)
+
+***
+
+* [Privacy Policy](privacy-policy.md)
