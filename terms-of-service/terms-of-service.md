@@ -171,7 +171,7 @@ All information on the Site and the Services is for informational purposes only 
 
 6. Privacy
 
-We care about the privacy of our users. You understand that by using the Site you consent to the collection, use and disclosure of personally identifiable information and aggregate data, and to have your personally identifiable information collected, used, transferred to and processed in accordance with our Privacy Policy, a copy of which can be found here: \[Note: Insert link to privacy policy]. Our Privacy Policy is hereby incorporated into and forms part of this Agreement.
+We care about the privacy of our users. You understand that by using the Site you consent to the collection, use and disclosure of personally identifiable information and aggregate data, and to have your personally identifiable information collected, used, transferred to and processed in accordance with our Privacy Policy, a copy of which can be found [here](https://docs.hyperion.xyz/privacy-policy). Our Privacy Policy is hereby incorporated into and forms part of this Agreement.
 
 7. Cautionary Note on Forward-looking Statements.
 
