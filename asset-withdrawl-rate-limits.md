@@ -1,12 +1,165 @@
 # Asset Withdrawl Rate Limits
 
-At Hyperion, safeguarding your assets is our top priority. To further strengthen security and mitigate risks, we implemented a new Rate Limit feature for withdrawals from June 20, 2025.
+### Overview
 
+Hyperion DEX implements rate limiting and fridge features to protect the platform and user assets. These features are designed to prevent large-scale rapid liquidity withdrawals while ensuring your funds remain safe at all times.
 
+### What is Rate Limiting?
 
-Key Details:
+Rate limiting is a protective mechanism that restricts the amount of assets that can be withdrawn from liquidity pools within a specific time period. This helps to:
 
-* Withdrawal Threshold: Each asset has a predefined maximum withdrawal limit per 24-hour period.
-* Cooling-Off Period: If the threshold is exceeded, new withdrawal requests will enter a 24-hour waiting period before processing.
-* User Impact: Once the limit is reached, your withdrawal will show as "Pending" status and a clear "Releasing Time" will be displayed.
-* Expedited Processing: For urgent withdrawals during cooling-off periods, clients may contact their designated point of contact to request priority processing (subject to security verification).
+* Prevent panic selling and market manipulation
+* Protect liquidity providers
+* Maintain market stability
+* Prevent malicious attacks
+
+#### How Rate Limiting Works
+
+The system uses a "token bucket" algorithm, like a bucket that automatically refills:
+
+1. **Initial Capacity**: Each asset has an initial withdrawal limit
+2. **Using the Limit**: When you remove liquidity, it consumes the limit
+3. **Automatic Refill**: Limits recover automatically over time
+4. **Accelerated Recovery**: Adding liquidity immediately restores part of the limit
+
+#### Two Types of Rate Limits
+
+**1. Global Rate Limit (Currently Active)**
+
+* **Scope**: Restricts total withdrawals of specific assets across all platform users
+* **Protection Goal**: Prevents rapid depletion of liquidity pools, protects the entire ecosystem
+* **Current Limits** (24-hour period):
+  * **APT**: 1 million tokens
+  * **USDT**: 6 million tokens
+  * **USDC**: 5 million tokens
+* **Note**: These values are dynamically adjusted based on platform usage. A query page will be available in the future for users to check current thresholds
+
+**2. User Rate Limit (Currently Inactive)**
+
+* **Scope**: Restricts withdrawals per individual user address for specific assets
+* **Protection Goal**: Prevents abnormal large operations by single users
+* **Status**: Currently, only global limits are enabled; individual user limits are not yet active
+
+### What is the Fridge Feature?
+
+When your transaction exceeds rate limits, your funds don't disappear - they're safely stored in the "fridge". This ensures your funds remain secure even when rate limits are triggered.
+
+#### How the Fridge Works
+
+1. **Trigger Condition**: When you try to remove liquidity but exceed rate limits
+2. **Automatic Storage**: Your funds are automatically stored in your personal fridge
+3. **Freeze Period**: Funds are frozen for 24 hours (default)
+4. **Claiming Funds**: After the freeze period, you can claim your funds anytime
+
+### How to Use These Features
+
+#### When Rate Limits are Triggered
+
+If your transaction triggers rate limits:
+
+1. **Don't worry**: Your funds are safe
+2. **Check the fridge**: You'll see a new "box" in your fridge
+3. **Note the information**:
+   * Box ID
+   * Amount of tokens frozen
+   * Release time (usually 24 hours later)
+
+#### Claiming Funds from the Fridge
+
+**Method 1: Claim All Available Funds**
+
+The simplest way is to claim all unfrozen funds at once:
+
+```
+Click the "Claim All Available" button
+```
+
+**Method 2: Claim Specific Box**
+
+If you only want to claim specific funds:
+
+```
+1. View your fridge box list
+2. Find boxes that are unfrozen (showing "Claimable" status)
+3. Click the "Claim" button for that box
+```
+
+#### Viewing Fridge Status
+
+You can always check:
+
+* **All Fridge Boxes**: Shows detailed information for each box
+* **Release Time**: When each box can be claimed
+* **Token Information**: Type and amount of frozen tokens
+* **Associated Info**: Related pool and position IDs
+
+### Frequently Asked Questions
+
+#### 1. Why was my transaction limited?
+
+Since only global limits are currently active, your transaction was limited because:
+
+* The platform's 24-hour withdrawal volume for the asset is approaching or has reached the threshold
+* Your withdrawal amount would cause the global limit to be exceeded
+* For example: If APT withdrawals are approaching 1 million tokens in 24 hours, your large withdrawal may be restricted
+
+#### 2. How can I avoid triggering rate limits?
+
+* **Check Status**: Before large operations, check the platform's remaining quota (feature coming soon)
+* **Batch Operations**: Split large withdrawals into smaller transactions
+* **Avoid Peak Times**: Choose periods with less platform activity
+* **Balanced Operations**: Adding liquidity helps restore global limits
+
+#### 3. What privileges do whitelisted users have?
+
+Whitelisted users (like market makers or partners) can:
+
+* Completely bypass rate limits
+* No withdrawal restrictions
+* No need to use the fridge feature
+
+#### 4. Can the freeze period be shortened?
+
+* Default freeze period is 24 hours
+* Regular users cannot change freeze time
+* In emergencies, administrators can assist
+
+#### 5. Are my funds safe in the fridge?
+
+Yes, absolutely safe:
+
+* Funds are stored in smart contracts
+* Only you can claim after unfreezing
+* All operations are logged with events
+* Administrators can only intervene in emergencies
+
+#### 6. Do global limits affect all operations?
+
+No, global limits only affect liquidity removal operations:
+
+* **Not affected**: Trading (Swap), adding liquidity
+* **Affected**: Removing liquidity, closing positions
+* This design protects liquidity pools while maintaining normal trading
+
+#### 7. How can I check current global limit status?
+
+A dedicated page will be launched in the future showing:
+
+* 24-hour limit thresholds for each asset
+* Currently used quota
+* Remaining available quota
+* Limit recovery countdown
+
+### Best Practices
+
+1. **Know the Limits**: Be familiar with current global thresholds (APT 1M, USDT/USDC 5M)
+2. **Spread Operations**: Avoid large one-time withdrawals, especially near threshold limits
+3. **Follow Announcements**: Limit thresholds may be adjusted, stay updated with official announcements
+4. **Be Patient**: The 24-hour freeze period protects the entire ecosystem
+5. **Plan Accordingly**: For large withdrawals, plan ahead and execute in batches
+
+### Summary
+
+Rate limiting and fridge features are important security features of Hyperion DEX. They protect platform stability while ensuring your funds remain safe and accessible. By understanding and properly using these features, you can better manage your liquidity operations while contributing to the healthy development of the entire ecosystem.
+
+Remember: These limits aren't obstacles - they're protections. They ensure long-term market stability and benefit all participants.
