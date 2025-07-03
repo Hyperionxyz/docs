@@ -69,9 +69,9 @@
 
 * [Brand Asset](resource/brand-asset.md)
 
-## TERMS OF SERVICE
+## Terms & Policies
 
-* [Terms of Service](terms-of-service/terms-of-service.md)
+* [Terms of Service](terms-and-policies/terms-of-service.md)
 
 ***
 
