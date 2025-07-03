@@ -24,4 +24,4 @@ Purchasing services or products Hyperion and/or RION or xRION entail significant
 
 
 
-{% include ".gitbook/includes/disclaimer-description-on-footer.md" %}
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

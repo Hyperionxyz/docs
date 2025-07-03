@@ -140,4 +140,4 @@ If you would like further information on the collection, use, disclosure, transf
 
 
 
-{% include ".gitbook/includes/disclaimer-description-on-footer.md" %}
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}
