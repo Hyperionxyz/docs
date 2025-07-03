@@ -80,4 +80,4 @@ Cautionary Note on forward-looking statements: All statements contained herein, 
 
 
 
-{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}
+{% include ".gitbook/includes/disclaimer-description-on-footer.md" %}

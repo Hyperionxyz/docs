@@ -12,7 +12,7 @@
 ## Token
 
 * [RION](token/rion.md)
-* [xRION](token/xrion.md)
+* [xRION](xrion.md)
 
 ## Product Features
 
@@ -77,6 +77,6 @@
 ## Legal & Compliance
 
 * [Terms of Service](legal-and-compliance/terms-of-service.md)
-* [Privacy Policy](legal-and-compliance/privacy-policy.md)
-* [Legal Disclaimer](legal-and-compliance/legal-disclaimer.md)
-* [Risk Factors](legal-and-compliance/risk-factors.md)
+* [Privacy Policy](privacy-policy.md)
+* [Legal Disclaimer](legal-disclaimer.md)
+* [Risk Factors](risk-factors.md)
