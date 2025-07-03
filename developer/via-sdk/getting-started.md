@@ -6,3 +6,12 @@ The @hyperionxyz/sdk is the official software development kit for Hyperion. It o
 
 
 
+
+
+
+
+
+
+
+
+{% include "../../.gitbook/includes/disclaimer-description-on-footer.md" %}

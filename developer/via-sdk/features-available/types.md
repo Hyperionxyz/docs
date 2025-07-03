@@ -81,3 +81,6 @@ interface Fee {
 }
 ```
 
+
+
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

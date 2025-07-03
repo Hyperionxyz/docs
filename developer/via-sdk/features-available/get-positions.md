@@ -161,3 +161,4 @@ async function fetchFeeHistory() {
 
 
 
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

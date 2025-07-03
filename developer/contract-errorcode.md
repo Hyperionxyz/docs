@@ -118,3 +118,8 @@
 </code></pre>                 | <p></p><pre><code>EREWARD_PAUSED
 </code></pre>                 |
 
+
+
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

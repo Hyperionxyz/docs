@@ -55,3 +55,8 @@ const payload = await sdk.Swap.swapTransactionPayload(params)
 console.log(payload)
 ```
 
+
+
+
+
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

@@ -32,3 +32,9 @@ query MyQuery($poolId: String = "") {
   }
 }
 ```
+
+
+
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

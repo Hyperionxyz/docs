@@ -19,3 +19,7 @@ For general pool creation, use the `create_pool` function in the `pool_v3` modul
 * `token_b`: The token B object to add liquidity
 * `fee_tier`: fee\_iter will affect price precision, they correspond to different fee rates.
 * `tick`: initiailize price for pool
+
+
+
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

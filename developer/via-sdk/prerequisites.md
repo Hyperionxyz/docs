@@ -23,3 +23,7 @@ const sdk = initHyperionSDK({
 ```
 
 Now, you can start using Hyperion SDK!
+
+
+
+{% include "../../.gitbook/includes/disclaimer-description-on-footer.md" %}

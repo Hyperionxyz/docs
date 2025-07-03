@@ -84,3 +84,4 @@ const payload = await sdk.Position.addLiquidityTransactionPayload(params)
 
 
 
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

@@ -105,3 +105,8 @@ const payload = await sdk.Position.removeLiquidityTransactionPayload(params)
 console.log(payload)
 ```
 
+
+
+
+
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

@@ -22,3 +22,10 @@ For opening empty position , use `open_position`function in `pool_v3` module.
 
 `tick_upper`: the lower bound position's liquidity located at
 
+
+
+
+
+
+
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

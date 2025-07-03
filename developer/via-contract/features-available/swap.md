@@ -56,3 +56,10 @@ For exact output swap, use the `exact_output_swap_entry` function in the router`
 
 `recipient`: output token receiver
 
+
+
+
+
+
+
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

@@ -21,3 +21,11 @@ For adding liquidity into position , use `add_liquidity` in `pool_v3` module.
 `fa_a`: token a fungible asset
 
 `fa_b`: token b fungible asset
+
+
+
+
+
+
+
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

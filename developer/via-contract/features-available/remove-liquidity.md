@@ -13,3 +13,9 @@ For removing liquidity into position , use remove`_liquidity` in `pool_v3` modul
 ```
 
 `liquidity_delta`: liquidity amount desired to remove out position
+
+
+
+
+
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

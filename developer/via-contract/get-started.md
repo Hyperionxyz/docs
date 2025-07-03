@@ -24,3 +24,6 @@ hyperfluid_example = "0x0"
 
 ```
 
+
+
+{% include "../../.gitbook/includes/disclaimer-description-on-footer.md" %}

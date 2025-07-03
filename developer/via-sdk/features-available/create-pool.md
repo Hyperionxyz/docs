@@ -173,3 +173,4 @@ const payload = await sdk.Pool.createPoolTransactionPayload(params)
 
 
 
+{% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}
