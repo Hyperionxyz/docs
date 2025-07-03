@@ -17,3 +17,7 @@ A swap user should have seen the term ‘slippage’ or ‘price slippage’ on 
 To respond to the possible price change, we adopt the concept of slippage tolerance. Slippage tolerance can be set by a user, which is to determine the largest price impact that the user is willing to accept. If the final execution price is outside of the acceptable slippage range, the transaction will get failed to protect the user’s interests.
 
 A trade that uses assets and tokens that are purchased before paying for them.
+
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

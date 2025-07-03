@@ -2,7 +2,7 @@
 
 ## **Overview**&#x20;
 
-Hyperion is (https://hyperion.xyz/) a fully on-chain hybrid Orderbook-AMM DEX built natively for Aptos, leveraging its exceptional throughput and minimal latency to deliver a seamless trading experience for both professional and retail users. Hyperion aims to become the foundational trading engine on Aptos, offering a hybrid Orderbook-AMM DEX with competitive liquidity options and a seamless user experience for both professional and retail traders. In December 2024, Hyperion successfully raised pre-seed funding from Ankaa Labs and BlockBooster.
+Hyperion is (https://hyperion.xyz/) a fully on-chain hybrid Orderbook-AMM DEX built natively for Aptos, leveraging its exceptional throughput and minimal latency to deliver a seamless trading experience for both professional and retail users. Hyperion aims to become the foundational trading engine on Aptos, offering a hybrid Orderbook-AMM DEX with competitive liquidity options and a seamless user experience for both professional and non-professional traders. In December 2024, Hyperion successfully raised pre-seed funding from Ankaa Labs and BlockBooster.
 
 ## Team&#x20;
 
@@ -15,3 +15,7 @@ The project is led by a team of seasoned Web3 veterans with proven expertise in 
 ## Incubation and Support&#x20;
 
 Hyperion is incubated by BlockBooster and is part of Ankaa Accelerator Program. BlockBooster is a leading Web3 venture studio in Asia, backed by OKX Ventures and other industry leaders. Its portfolio includes notable projects such as 0G, BladeGames, and Equilibria.
+
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

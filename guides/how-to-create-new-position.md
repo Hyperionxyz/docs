@@ -13,3 +13,7 @@
 3. After you successfully added the liquidity to the target pool, you can find your liquidity in "Position"
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

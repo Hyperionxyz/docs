@@ -63,4 +63,6 @@ Users are rewarded for inviting others to the platform. Each user is assigned a 
 
 _Coming Soon_: Drips will introduce point multipliers for consistent participation across trading and liquidity provision, along with seasonal or event-based point boosts.
 
-***
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

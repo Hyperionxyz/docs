@@ -15,3 +15,7 @@
 4. Click the "Remove" button. You can select the withdrawal ratio in the pop - up window to complete the withdrawal of liquidity.
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

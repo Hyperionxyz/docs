@@ -19,3 +19,7 @@ It is reasonable to anticipate that different types of token pairs tend to progr
 ## **Protocol Fees** <a href="#protocol-fees" id="protocol-fees"></a>
 
 To maintain a healthy economic model that is beneficial to the project's sustainable project treasury for its long term development, a certain percentage (20% by default) will be taken from swap fees of every transaction on Hyperion as the protocol fee.
+
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

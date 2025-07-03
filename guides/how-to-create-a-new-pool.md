@@ -29,3 +29,6 @@ Creating a new market on Hyperion is completely permissionless now (currently li
 6. You’ve entered all needed parameters, you can confirm to create the pool and approve your wallet to add initial liquidity.
 7. After a pool is created, it usually takes a few minutes for the pool to be displayed or searchable on the front end interface of Hyperion. Users will be able to start enjoying swapping and LPing with this new market you just created.
 
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

@@ -16,3 +16,6 @@
 
 4. After everything is set up, confirm the swap to proceed with this transaction and you will receive your target asset in a few seconds.
 
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

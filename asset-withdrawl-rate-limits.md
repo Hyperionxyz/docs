@@ -163,3 +163,7 @@ A dedicated page will be launched in the future showing:
 Rate limiting and fridge features are important security features of Hyperion DEX. They protect platform stability while ensuring your funds remain safe and accessible. By understanding and properly using these features, you can better manage your liquidity operations while contributing to the healthy development of the entire ecosystem.
 
 Remember: These limits aren't obstacles - they're protections. They ensure long-term market stability and benefit all participants.
+
+
+
+{% include ".gitbook/includes/disclaimer-description-on-footer.md" %}

@@ -12,3 +12,7 @@ Telegram Group Chat: [https://t.me/Hyperion\_community](https://t.me/Hyperion_co
 
 Telegram Announcement: [https://t.me/HyperionAptos](https://t.me/HyperionAptos)
 
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}
+

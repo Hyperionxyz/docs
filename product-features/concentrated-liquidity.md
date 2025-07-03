@@ -33,3 +33,7 @@ As the price keeps changing as new swaps are executed, the smart contract tends 
 Although each trading pool has the same number of price ticks in a concentrated liquidity protocol, there are only a part of them serving as active ticks in actual scenarios. There is certain correlation between tick spacing and swap fee tier in a concentrated liquidity smart contract. The lower the fee tier is set, the closer the two nearby active ticks can be. In other words, a higher fee tier can give the pool a wider tick space of potential active price ticks.
 
 For trading pairs that require higher price granularity, like stablecoin pairs, a relatively narrower tick space will be helpful. The price impact during swapping will be more moderate, with the tighter tick spacing, which is exactly what is needed by a stablecoin pool.
+
+
+
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

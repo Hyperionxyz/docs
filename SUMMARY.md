@@ -9,14 +9,22 @@
 * [Glossary](overview/glossary.md)
 * [Roadmap](overview/roadmap.md)
 
-## Concepts
+## Token
 
-* [Concentrated Liquidity](concepts/concentrated-liquidity.md)
-* [Fees](concepts/fees.md)
-* [Swap](concepts/swap.md)
-* [Liquidity Mining](concepts/liquidity-mining.md)
-* [Range Order](concepts/range-order.md)
-* [Drips](concepts/drips.md)
+* [RION](token/rion.md)
+
+***
+
+* [xRION](xrion.md)
+
+## Product Features
+
+* [Concentrated Liquidity](product-features/concentrated-liquidity.md)
+* [Fees](product-features/fees.md)
+* [Swap](product-features/swap.md)
+* [Liquidity Mining](product-features/liquidity-mining.md)
+* [Range Order](product-features/range-order.md)
+* [Drips](product-features/drips.md)
 
 ## Guides
 
@@ -69,10 +77,12 @@
 
 * [Brand Asset](resource/brand-asset.md)
 
-## Terms & Policies
+## Legal & Compliance
 
-* [Terms of Service](terms-and-policies/terms-of-service.md)
+* [Terms of Service](legal-and-compliance/terms-of-service.md)
 
 ***
 
 * [Privacy Policy](privacy-policy.md)
+* [Legal Disclaimer](legal-disclaimer.md)
+* [Risk Factors](risk-factors.md)
