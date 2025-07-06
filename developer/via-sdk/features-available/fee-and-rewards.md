@@ -48,9 +48,9 @@ const payload = sdk.Position.claimFeeTransactionPayload({
 
 
 
-## 4. Generate fee claim payload
+## 4. Generate reward claim payload
 
-use `sdk.Position.claimFeeTransactionPayload` method
+use `sdk.Position.claimRewardTransactionPayload` method
 
 ### Function Input Params
 
