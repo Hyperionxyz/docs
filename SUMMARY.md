@@ -57,8 +57,10 @@
     * [Open position](developer/via-contract/features-available/open-position.md)
     * [Add liquidity](developer/via-contract/features-available/add-liquidity.md)
     * [Remove liquidity](developer/via-contract/features-available/remove-liquidity.md)
+    * [Add liquidity (zap in)](developer/via-contract/features-available/add-liquidity-zap-in.md)
     * [Collect fees](developer/via-contract/features-available/collect-fees.md)
     * [Collect rewards](developer/via-contract/features-available/collect-rewards.md)
+    * [Remove liquidity (zap out)](developer/via-contract/features-available/remove-liquidity-zap-out.md)
 * [via API](developer/via-api.md)
 * [Contract ErrorCode](developer/contract-errorcode.md)
 
