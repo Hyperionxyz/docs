@@ -68,46 +68,6 @@ Further utilities for xRION may be introduced as the Hyperion platform evolves.
 
 xRION does not represent any shareholding, ownership, participation, right, title, or interest in Hyperion,their affiliates, or any other company, enterprise, or undertaking. xRION does not entitle token holders to any promise of fees, dividends, revenue, profits, or investment returns, and is not intended to constitute securities in any jurisdiction, including the United States, British Virgin Islands, Hong Kong, Panama, or Singapore. xRION may only be utilized within the Hyperion platform, and ownership confers no rights, express or implied, other than the right to use xRION to interact with and utilize the Hyperion platform. The secondary market price of xRION is not dependent on the efforts of the Hyperion Project contributors, and there are no mechanisms or schemes in place to control or manipulate secondary market pricing. xRION holders are not entitled to vote on the operation or management of Hyperion, their affiliates or their assets, nor does xRION constitute any equity interest or collective investment scheme. The arrangement is not intended to be any form of joint venture or partnership. All governance features described herein are subject to the formal establishment of the Hyperion DAO.
 
-\
-
-
-\
-
-
-
-
-\
-
-
-
-
-\
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 {% include "../../.gitbook/includes/disclaimer-description-on-footer.md" %}

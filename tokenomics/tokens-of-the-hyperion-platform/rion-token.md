@@ -26,15 +26,6 @@ RION is awarded as an economic incentive to encourage user contributions and par
 
 RION does not represent any shareholding, ownership, participation, right, title, or interest in Hyperion, their affiliates, or any other company, enterprise, or undertaking. RION does not entitle token holders to any promise of fees, dividends, revenue, profits, or investment returns, and is not intended to constitute securities in any jurisdiction, including the United States, British Virgin Islands, Hong Kong, Panama, or Singapore. RION may only be utilized within the Hyperion platform, and ownership confers no rights, express or implied, other than the right to use RION to interact with and utilize the Hyperion platform. The secondary market price of RION is not dependent on the efforts of the Hyperion Project contributors, and there are no mechanisms or schemes in place to control or manipulate secondary market pricing. RION holders are not entitled to vote on the operation or management of Hyperion, their affiliates or their assets, nor does RION constitute any equity interest or collective investment scheme. The arrangement is not intended to be any form of joint venture or partnership.
 
-\
-
-
-
-
-
-
-
-
 
 
 {% include "../../.gitbook/includes/disclaimer-description-on-footer.md" %}
