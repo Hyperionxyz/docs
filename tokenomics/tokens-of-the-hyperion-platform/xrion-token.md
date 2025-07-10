@@ -51,10 +51,6 @@ When the lock-up expires, the original RION is returned to the user, and the cor
 
 ### Utilities
 
-Launchpad Participation:\
-xRION balances may be used as a whitelist requirement or for calculating allocation quotas for launchpool participation on the Hyperion launchpad.\
-
-
 * **Staking**:\
   By staking RION, users automatically participate and hold xRION and become eligible for xRION staking rewards. These rewards are supported by the treasury of the Hyperion platform and made available on a discretionary basis –further details on the reward program and updates thereto will be published from time to time via official channels. They are a way to give back to the community, sharing the benefits of the growth of the platform.\
 
