@@ -24,11 +24,11 @@ Users earn Hyperion Drip through providing liquidity and engaging in trading act
 
 #### B. Trade Points (Based on Fee Tiers)
 
-| Fee Tier | Point Calculation                    | Rule |
-| -------- | ------------------------------------ | ---- |
-| 0.01%    | 1 Point per $100 in trading volume   |      |
-| 0.05%    | 5 Points per $100 in trading volume  |      |
-| 0.1%     | 10 Points per $100 in trading volume |      |
+| Fee Tier | Point Calculation                    |
+| -------- | ------------------------------------ |
+| 0.01%    | 1 Point per $100 in trading volume   |
+| 0.05%    | 5 Points per $100 in trading volume  |
+| 0.1%     | 10 Points per $100 in trading volume |
 
 * **Example Calculation (Fee Tier 0.05%)**:
   * $1,000 trading volume
