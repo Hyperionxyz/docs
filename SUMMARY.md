@@ -9,10 +9,11 @@
 * [Glossary](overview/glossary.md)
 * [Roadmap](overview/roadmap.md)
 
-## Token
+## Tokenomics
 
-* [RION](token/rion.md)
-* [xRION](xrion.md)
+* [Tokens of the Hyperion Platform](tokenomics/tokens-of-the-hyperion-platform/README.md)
+  * [RION Token](tokenomics/tokens-of-the-hyperion-platform/rion-token.md)
+  * [xRION Token](tokenomics/tokens-of-the-hyperion-platform/xrion-token.md)
 
 ## Product Features
 
