@@ -18,7 +18,7 @@ RION serves as a versatile utility token, facilitating decentralized exchange an
 
 RION is awarded as an economic incentive to encourage user contributions and participation on the platform, establishing a mutually beneficial structure where participants are fairly rewarded based on their efforts. The distribution of additional RION is strictly dependent on actual usage, activity, and contributions to the platform—such as frequency and volume of transactions. Users who do not actively participate or contribute will not receive RION incentives.
 
-<figure><img src="../../.gitbook/assets/20250710-175139.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/20250710-181300.jpeg" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/20250710-175201.jpeg" alt=""><figcaption></figcaption></figure>
 
