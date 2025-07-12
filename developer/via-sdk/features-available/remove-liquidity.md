@@ -94,9 +94,9 @@ const params = {
   currencyA: "0x1::aptos_coin::AptosCoin",
   currencyB:
     "0x6926bff1eab5554fa72ae167ed736acf623ab17fe81ebf2ea0d2138f8c533f77::type::T",
-  currencyAAmount: parseInt(currencyAAmount * remoteRatio),
-  currencyBAmount: parseInt(currencyBAmount * remoteRatio),
-  deltaLiquidity: parseInt(position[0].currentAmout * remoteRatio),
+  currencyAAmount: parseInt(currencyAAmount * removeRatio),
+  currencyBAmount: parseInt(currencyBAmount * removeRatio),
+  deltaLiquidity: parseInt(position[0].currentAmount * removeRatio),
   slippage: 0.1,
   recipient: accountAddress,
 }
