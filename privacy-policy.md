@@ -136,7 +136,7 @@ Please revisit this page periodically to stay aware of any changes to this Polic
 
 #### Contact Us
 
-If you would like further information on the collection, use, disclosure, transfer or processing of your personal data or the exercise of any of the rights listed above, please address questions and requests to: contact@hyperion.xyz
+If you would like further information on the collection, use, disclosure, transfer or processing of your personal data or the exercise of any of the rights listed above, please address questions and requests to: info@hyperion.xyz
 
 
 

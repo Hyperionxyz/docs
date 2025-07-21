@@ -2,7 +2,7 @@
 
 Official Website: [https://hyperion.xyz/](https://hyperion.xyz/)
 
-Email: contact@hyperion.xyz
+Email: info@hyperion.xyz
 
 Twitter: [https://x.com/hyperion\_xyz](https://x.com/hyperion_xyz)
 
