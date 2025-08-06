@@ -22,7 +22,7 @@ Users earn DRIPs based on the trading fees they generate. Each $0.01 in fees con
 
 #### **Fee Tiers & Multipliers**
 
-<table data-header-hidden><thead><tr><th width="194.49609375">Fee Tier</th><th>DRIP Rate</th></tr></thead><tbody><tr><td>0.01%</td><td>1 DRIP per $100 in trading volume</td></tr><tr><td>0.05%</td><td>5 DRIPs per $100 in trading volume</td></tr></tbody></table>
+<table><thead><tr><th width="194.49609375">Fee Tier</th><th>DRIP Rate</th></tr></thead><tbody><tr><td>0.01%</td><td>1 DRIP per $100 in trading volume</td></tr><tr><td>0.05%</td><td>5 DRIPs per $100 in trading volume</td></tr></tbody></table>
 
 **Eligible Trading Pools:**
 
