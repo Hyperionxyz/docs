@@ -22,7 +22,11 @@
 * [Swap](product-features/swap.md)
 * [Liquidity Mining](product-features/liquidity-mining.md)
 * [Range Order](product-features/range-order.md)
-* [Drips](product-features/drips.md)
+
+## Drips
+
+* [Genesis Season](drips/drips.md)
+* [Drip Season 2](drips/drip-season-2.md)
 
 ## Guides
 

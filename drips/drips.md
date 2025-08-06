@@ -1,18 +1,18 @@
-# Drips
+# Genesis Season
 
-### Introduction
+## Introduction
 
 The Drips System rewards users for actively participating in the ecosystem through liquidity provision, trading, and community growth via referrals.
 
 Drips are calculated and accumulated daily based on user actions and can be used to unlock exclusive benefits and incentives within the platform.
 
-### Point Categories & Earning Mechanisms
+## Point Categories & Earning Mechanisms
 
-#### 1. Hyperion’s Drips
+### **1. Hyperion’s Drips**
 
 Users earn Hyperion Drip through providing liquidity and engaging in trading activity. Drips are calculated daily and rounded down (floor).
 
-#### A. Liquidity Provision (LP Points)
+#### **A. Liquidity Provision (LP Points)**
 
 | Action                    | Point Calculation | Rule                              |
 | ------------------------- | ----------------- | --------------------------------- |
@@ -22,7 +22,7 @@ Users earn Hyperion Drip through providing liquidity and engaging in trading act
   * Provide $500 in liquidity
   * Points per day: (500 ÷ 100) × 5 = 25 Points
 
-#### B. Trade Points (Based on Fee Tiers)
+#### **B. Trade Points (Based on Fee Tiers)**
 
 | Fee Tier | Point Calculation                    |
 | -------- | ------------------------------------ |
@@ -34,18 +34,18 @@ Users earn Hyperion Drip through providing liquidity and engaging in trading act
   * $1,000 trading volume
   * Points: (1,000 ÷ 100) × 5 = 50 Points
 
-#### 2. Invitation Points
+### **2. Invitation Points**
 
 Users are rewarded for inviting others to the platform. Each user is assigned a unique 6-character alphanumeric invitation code. Points are earned from both direct and second-level invitees.
 
-#### A. Liquidity Referral Rewards
+#### **A. Liquidity Referral Rewards**
 
 | Relationship Level   | Point Reward               |
 | -------------------- | -------------------------- |
 | Direct Invitee       | 20% of LP Points generated |
 | Second-Level Invitee | 10% of LP Points generated |
 
-#### B. Trading Referral Rewards
+#### **B. Trading Referral Rewards**
 
 | Relationship Level   | Point Reward                  |
 | -------------------- | ----------------------------- |
@@ -59,7 +59,7 @@ Users are rewarded for inviting others to the platform. Each user is assigned a 
   * Second-level invitee earns 200 Trade Points
   * You receive 10% of 200 = 20 Points
 
-### Multipliers & Bonus Mechanisms
+## Multipliers & Bonus Mechanisms
 
 _Coming Soon_: Drips will introduce point multipliers for consistent participation across trading and liquidity provision, along with seasonal or event-based point boosts.
 
