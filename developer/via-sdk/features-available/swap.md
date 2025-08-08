@@ -57,9 +57,11 @@ console.log(payload)
 
 
 
-## Swap with partnership
+## Swap with Partnership
 
 use `sdk.Swap.swapWithPartnershipTransactionPayload` method.
+
+(from v0.0.17)
 
 ### Example
 
