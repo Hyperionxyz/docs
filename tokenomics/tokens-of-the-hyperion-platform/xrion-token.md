@@ -15,37 +15,61 @@ xRION is the escrowed, non-transferable governance token of the Hyperion platfor
 
 
 
-### How xRION Works
+### Locking RION → Receiving xRION
 
-Users may stake RION on the platform to receive xRION. Users may lock RION for various periods (up to 52 weeks total) to receive xRION, which represents voting power and other rights within the Hyperion platform. The amount of xRION received depends on both the amount of RION locked and the duration of the lock-up, calculated as:
-
-xRION amount = Number of RION locked × Number of weeks locked (up to 52)
-
-
-
-#### Examples:
-
-* 1 RION locked for 1 week = 1 xRION
-* 1 RION locked for 52 weeks = 52 xRION
-* 10 RION locked for 10 weeks = 100 xRION
-* 5 RION locked for 40 weeks = 200 xRION
-
-The xRION balance decreases linearly each week as the remaining lock-up period shortens.
+* Users **lock RION tokens** for a duration between **1 and 52 weeks**.
+* For each locked RION, the user receives: **xRION = Locked Amount × Lock Duration (in weeks)**
+  * Example: locking 100 RION for 10 weeks yields **1,000 xRION**.
 
 
 
-#### Extending the Lock-up Period:
+### Epoch Structure
 
-Users may extend their lock-up period at any time to increase or maintain their xRION balance; however, the new total remaining lock-up period after extension cannot exceed the maximum of 52 weeks.
+* Time is divided into **weekly Epochs**.
+* Each Epoch runs from **Monday 08:00 UTC → next Monday 08:00 UTC**.
+* When a user locks RION, their xRION becomes **active from the nearest upcoming Monday Epoch**. The user’s xRION balance is created and visible. The xRION is counted in the reward pool and begins participating in the weekly distribution.
 
-#### For example:
 
-* If a user locks 1 RION for 52 weeks, they initially receive 52 xRION.
-* After 10 weeks (remaining 42 weeks, 42 xRION), if the user extends the lock-up back to 52 weeks, their xRION balance restores to 52 xRION.
-* If a user has 5 RION locked for 20 weeks (initially 100 xRION), and after 5 weeks (remaining 15 weeks, 75 xRION) extends the lock-up to 40 weeks, the xRION balance becomes 200 xRION (5 RION × 40 weeks).
-* In all cases, the new total remaining lock-up period after extension cannot exceed 52 weeks.
 
-When the lock-up expires, the original RION is returned to the user, and the corresponding xRION balance is reduced to zero.
+### Reward Distribution
+
+* Once active, xRION allows the user to participate in **weekly reward distributions**.
+* Rewards are claimable **at the end of each Epoch**.
+* The **first claim** happens when the initial Epoch (after locking) ends.
+
+
+
+### Decay of xRION
+
+* xRION has a **linear weekly decay**:
+  * Each week, **xRION decreases by 1 per locked RION**.
+  * This continues until the lock period ends.
+* After the final week, the user’s RION unlocks and can be withdrawn.
+
+
+
+### Extending the Lock
+
+* Users can **extend the lock duration at any time before expiry**.
+* By extending, the xRION decay schedule is **recalculated** from the new end date, ensuring continued participation in rewards.
+
+
+
+### Example Walkthrough
+
+* Alice locks **100 RION** for **4 weeks**.
+* At lock time, her allocation is: **xRION = 100 × 4 = 400 xRION**.
+* Since the lock is made on **Wednesday**, her xRION becomes active starting the next **Monday 08:00 UTC**.
+
+**Epoch Rewards & Decay:**
+
+* **Week 0:** Alice has locked 100 RION but "my APR" and "xRION" amount will still be 0 on UI
+* **Week 1:** Alice will see "400 xRION" and "my APR" and participate fully in reward distribution.
+* **Week 2:** Her balance decays to 300 xRION.
+* **Week 3:** Balance is 200 xRION.
+* **Week 4:** Balance is 100 xRION. At the end of this Epoch, her lock period ends, and she can withdraw 100 RION.
+
+If Alice chooses to extend her lock by another 8 weeks during Week 2, her xRION will be recalculated based on the new lock period, giving her higher weight in upcoming reward distributions.
 
 
 
