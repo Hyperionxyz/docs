@@ -51,6 +51,17 @@ Liquidity providers earn DRIPs based on the size and type of pool they supply li
 
 <table><thead><tr><th width="286.3984375">Pool</th><th>DRIP Rate</th></tr></thead><tbody><tr><td>USDT/USDC (0.01%)</td><td>1 DRIP per $200 liquidity per day</td></tr><tr><td>APT/USDT or APT/USDC (0.05%)</td><td>1 DRIP per $100 liquidity per day</td></tr></tbody></table>
 
+**Eligible Liquidity Pools:**
+
+* USDT/USDC (0.01%)
+* APT/USDC (0.05%)
+* APT/USDT (0.05%)
+* xBTC/USDC (0.05%)
+* APT/xBTC (0.05%)
+* WBTC/USDC (0.05%)
+* WBTC/xBTC (0.01%)
+* APT/WBTC (0.05%)
+
 **Example Calculation (APT/USDT Pool):**
 
 Provide $500 liquidity → (500 ÷ 100) × 1 = **5 DRIPs per day**
