@@ -1,6 +1,6 @@
 # via Contract
 
-This is an interface contract to help everyone integrate with the Hyperfluid contract.
+This is an interface contract to help everyone integrate with the Hyperion contract.
 
 {% embed url="https://github.com/Hyperionxyz/hyperion-interface" %}
 
