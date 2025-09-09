@@ -40,6 +40,7 @@
 ## Developer
 
 * [Dev Overview](developer/dev-overview.md)
+* [via Site](developer/via-site.md)
 * [via SDK](developer/via-sdk.md)
   * [Getting Started](developer/via-sdk/getting-started.md)
   * [Prerequisites](developer/via-sdk/prerequisites.md)
