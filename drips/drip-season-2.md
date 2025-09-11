@@ -35,6 +35,11 @@ Users earn DRIPs based on the trading fees they generate. Each $0.01 in fees con
 * WBTC/xBTC (0.01%)
 * APT/WBTC (0.05%)
 * APT/kAPT (0.01%)
+* 🕒 Enabled for a Limited Time - xBTC/uniBTC (0.01%)
+* 🕒 Enabled for a Limited Time - brBTC/uniBTC (0.01%)
+* 🕒 Enabled for a Limited Time - FIABTC/xBTC (0.01%)
+* 🕒 Enabled for a Limited Time - USDC/uniBTC (0.05%)
+* 🕒 Enabled for a Limited Time - APT/AMI (0.1%)
 
 **Example Calculation (APT/USDT Pool, 0.05% Fee Tier):**
 
@@ -50,7 +55,7 @@ Liquidity providers earn DRIPs based on the size and type of pool they supply li
 
 #### Pool-Based Reward Rates
 
-<table><thead><tr><th width="286.3984375">Pool</th><th>DRIP Rate</th></tr></thead><tbody><tr><td>USDT/USDC (0.01%)</td><td>1 DRIP per $200 liquidity per day</td></tr><tr><td>APT/USDT or APT/USDC (0.05%)</td><td>1 DRIP per $100 liquidity per day</td></tr><tr><td>xBTC/USDC or APT/xBTC (0.05%) </td><td>1 DRIP per $100 liquidity per day</td></tr><tr><td>WBTC/USDC or APT/WBTC (0.05%)</td><td>1 DRIP per $100 liquidity per day</td></tr><tr><td>WBTC/xBTC (0.01%)</td><td>1 DRIP per $100 liquidity per day</td></tr><tr><td>APT/kAPT (0.01%)</td><td>1 DRIP per $100 liquidity per day</td></tr></tbody></table>
+<table><thead><tr><th width="286.3984375">Pool</th><th>DRIP Rate</th></tr></thead><tbody><tr><td>USDT/USDC (0.01%)</td><td>1 DRIP per $200 liquidity per day</td></tr><tr><td>Other Liquidity Pools</td><td>1 DRIP per $100 liquidity per day</td></tr></tbody></table>
 
 **Eligible Liquidity Pools:**
 
@@ -63,6 +68,11 @@ Liquidity providers earn DRIPs based on the size and type of pool they supply li
 * WBTC/xBTC (0.01%)
 * APT/WBTC (0.05%)
 * APT/kAPT (0.01%)
+* 🕒 Enabled for a Limited Time - xBTC/uniBTC (0.01%)
+* 🕒 Enabled for a Limited Time - brBTC/uniBTC (0.01%)
+* 🕒 Enabled for a Limited Time - FIABTC/xBTC (0.01%)
+* 🕒 Enabled for a Limited Time - USDC/uniBTC (0.05%)
+* 🕒 Enabled for a Limited Time - APT/AMI (0.1%)
 
 **Example Calculation (APT/USDT Pool):**
 

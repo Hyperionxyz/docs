@@ -45,7 +45,7 @@ Think of liquidity provision like running a parking lot:
 * Pool APR is an **average across all zones and past periods**.
 * Your earnings (Position APR) depend on **your active LP amount** in the fee-generating zone during your active hours.
 
-**Example (Formula + Parking Lot):**
+**Example:**
 
 * Pool collected $1000 fees yesterday:
   * Zone A (downtown) active LP = $50,000 → fees = $900
@@ -66,7 +66,7 @@ Think of liquidity provision like running a parking lot:
 
 **Explanation:** Depends on **zone, range width, and competition**.
 
-**Example (Formula + Parking Lot):**
+**Example:**
 
 * LP1 deposits $1000 narrowly in Zone A (active LP = $1000, total pool LP = $1000)
   * Share = 100% → earns $100 in fees
@@ -87,7 +87,7 @@ Think of liquidity provision like running a parking lot:
 
 **Explanation:** Could be **competition or wide range**.
 
-**Example (Formula + Parking Lot):**
+**Example:**
 
 * Zone A fees yesterday = $500, active LP = $50,000
 * Your active LP = $1000 → share = 2% → earns $10
@@ -109,7 +109,7 @@ Think of liquidity provision like running a parking lot:
 3. High competition → share of fees is low
 4. Joined during low-fee period → Pool APR uses historical average
 
-**Example (Formula + Parking Lot):**
+**Example:**
 
 * LP deposits $1000 across Zones A+B (wide range)
 * Active LP yesterday: Zone A = $50,000, Zone B = $20,000
