@@ -36,6 +36,7 @@
 * [How to Add/Remove Liquidity](guides/how-to-add-remove-liquidity.md)
 * [How to Create a New Pool](guides/how-to-create-a-new-pool.md)
 * [How to Place a Limit Order](guides/how-to-place-a-limit-order.md)
+* [APR Calculation for Liquidity Pools and Positions](guides/apr-calculation-for-liquidity-pools-and-positions.md)
 
 ## Developer
 
