@@ -28,3 +28,9 @@ Consider a pool with three liquidity providers where the current price is in bin
 * A's Position APR = $100\* (1000 /1009) / $1000 = 9.91%
 * B's Position APR = $100\* (9 /1009) / $1000 = 0.089%
 * C's Position APR = $100\* (0 /1009) / $1000 = 0%
+
+
+
+Understand the APR Calculation from a real-world example:
+
+[https://hyperionxyz.medium.com/understanding-hyperion-lp-apr-through-a-parking-lot-analogy-061c7a1c4e95](https://hyperionxyz.medium.com/understanding-hyperion-lp-apr-through-a-parking-lot-analogy-061c7a1c4e95)
