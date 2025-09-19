@@ -37,7 +37,6 @@ Users earn DRIPs based on the trading fees they generate. Each $0.01 in fees con
 * APT/kAPT (0.01%)
 * 🕒 Enabled for a Limited Time - xBTC/uniBTC (0.01%)
 * 🕒 Enabled for a Limited Time - brBTC/uniBTC (0.01%)
-* 🕒 Enabled for a Limited Time - FIABTC/xBTC (0.01%)
 * 🕒 Enabled for a Limited Time - USDC/uniBTC (0.05%)
 * 🕒 Enabled for a Limited Time - APT/AMI (0.1%)
 
@@ -70,7 +69,6 @@ Liquidity providers earn DRIPs based on the size and type of pool they supply li
 * APT/kAPT (0.01%)
 * 🕒 Enabled for a Limited Time - xBTC/uniBTC (0.01%)
 * 🕒 Enabled for a Limited Time - brBTC/uniBTC (0.01%)
-* 🕒 Enabled for a Limited Time - FIABTC/xBTC (0.01%)
 * 🕒 Enabled for a Limited Time - USDC/uniBTC (0.05%)
 * 🕒 Enabled for a Limited Time - APT/AMI (0.1%)
 
