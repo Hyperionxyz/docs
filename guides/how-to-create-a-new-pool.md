@@ -8,15 +8,15 @@ Creating a new market on Hyperion is completely permissionless now (currently li
 
 1. Under the Liquidity page [https://hyperion.xyz/liquidity](https://hyperion.xyz/liquidity), click “Create Pool” at the top right corner to enter the pool creation procedures. Before you create a new trading pool, you can search or scroll down the page to check if there’s an existing one.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. When creating a new pool, please specify the pair you would like to set up. Currently only APT token  are accepted as the quote token for a permissionless pool. For the base token, you can select it from the dropdown list or directly input the exact metadata address of your token.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Next, select a fee tier for the pool you are going to create. There are four tiers that are supported now, which are 0.01%, 0.05%, 0.3% and 1% respectively. For most non-stable trading pairs, 0.05% is always the most adopted fee tier. For a relatively rare asset that is rarely traded, 1% can be selected to give enough motivation to LPs. 0.01% and 0.05% are usually used for stable trading pairs. Please select a suitable fee tier for your pool if you want the pool you created to be utilized by more transactions.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Then, you need to set an initial price for the pool. Please specify a reasonable starting price, otherwise you may need to bear excessive impermanent loss. Besides, you need to set a price range which you want to allocate your initial liquidity into. The initial price must be within the range you selected.
 
