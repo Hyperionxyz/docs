@@ -6,6 +6,10 @@
 $ pnpm i @aptos-labs/ts-sdk @aptos-labs/script-composer-sdk @hyperionxyz/sdk
 ```
 
+{% hint style="info" %}
+It requires @aptos-labs/ts-sdk ≥ 5.1.0, @aptos-labs/script-composer-sdk ≥ 0.3.1
+{% endhint %}
+
 ## 2. Setting Up Configuration
 
 > You need create an Aptos Build account, and generate a API key for using Aptos public services. Click [https://build.aptoslabs.com/docs/introduction](https://build.aptoslabs.com/docs/introduction) to learn more.
