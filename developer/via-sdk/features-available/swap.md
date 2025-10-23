@@ -107,4 +107,109 @@ const payload = await sdk.Swap.swapWithPartnershipTransactionPayload(params)
 console.log(payload)
 ```
 
+
+
+## Swap via Aggregator
+
+(from v0.0.24)
+
+```typescript
+// if from === input, est to token amount by from token amount 
+// if to === input,  est from token amount by to token amount
+const params = {
+  amount: Math.pow(10,7),
+  from: '0xa',
+  input: '0xa',
+  to: '0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b',
+  slippage: args.slippage,   // 0.1
+};
+
+// 1. est amount and get aggregation info
+const aggregatorRoutes = await HyperionSDK.Swap.estAmountByAggregateSwap(params);
+/*
+{
+  "fromToken": {
+    "address": "0x000000000000000000000000000000000000000000000000000000000000000a"
+  },
+  "toToken": {
+    "address": "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b"
+  },
+  // est amount
+  // from -> to: true
+  // to -> from : false
+  "exactIn": true,
+  "feeAmount": "50000",
+  "fromTokenAmount": "100000000",
+  "minToTokenAmount": "3217167",
+  "toTokenAmount": "3249664",
+  "quotes": {
+    "route": [
+      {
+        "amountIn": "100000000",
+        "amountOut": "3249664",
+        "percentage": 100,
+        "feeAmount": "50000",
+        "routeTaken": [
+          {
+            "fromToken": {
+              "tokenType": "0x000000000000000000000000000000000000000000000000000000000000000a"
+            },
+            "toToken": {
+              "tokenType": "0x357b0b74bc833e95a115ad22604854d6b0fca151cecd94111770e5d6ffc9dc2b"
+            },
+            "dexName": "Hyperion",
+            "poolId": "0x18269b1090d668fbbc01902fa6a5ac6e75565d61860ddae636ac89741c883cbc",
+            "a2b": true,
+            "sqrtPriceLimit": "4295048016",
+            "poolType": "none",
+            "amountIn": "100000000",
+            "amountOut": "3249664"
+          },
+          ...
+        ]
+      },
+      ...
+    ]
+  }
+}
+*/
+
+
+// 2. Build transaction and submit
+import { BuildScriptComposerTransaction } from '@aptos-labs/script-composer-sdk';
+import { AptosConfig } from '@aptos-labs/ts-sdk';
+
+const transaction = await BuildScriptComposerTransaction({
+  sender: address,
+  aptosConfig: new AptosConfig({}),
+  builder: async (builder) => {
+    await HyperionSDK.Swap.generateAggregateSwapTransactionScript({
+      ...aggregatorRoutes,
+      builder,
+      // custom setting. 
+      // Default is 'hyperion-aggregator', if don't set.
+      partnershipId?: 'your-platfrom-name/co-activity-name' 
+    });
+
+    return builder;
+  },
+});
+
+// extract the payload
+const {
+  rawTransaction: { payload },
+} = txn as any;
+
+// submit the transaction
+const { hash } = await walletCore?.signAndSubmitTransaction({
+  data: {
+    bytecode: payload.script.bytecode,
+    functionArguments: payload.script.args,
+    typeArguments: payload.script.type_args,
+  },
+});
+```
+
+
+
 {% include "../../../.gitbook/includes/disclaimer-description-on-footer.md" %}

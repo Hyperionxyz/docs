@@ -3,7 +3,7 @@
 ## 1. NPM install
 
 ```sh
-$ pnpm i @hyperionxyz/sdk
+$ pnpm i @aptos-labs/ts-sdk @aptos-labs/script-composer-sdk @hyperionxyz/sdk
 ```
 
 ## 2. Setting Up Configuration
