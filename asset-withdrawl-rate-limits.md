@@ -1,4 +1,4 @@
-# Asset Withdrawl Rate Limits
+# Liquidity Withdrawal Rate Limits
 
 ### Overview
 
@@ -8,7 +8,7 @@ Hyperion DEX implements rate limiting and fridge features to protect the platfor
 
 Rate limiting is a protective mechanism that restricts the amount of assets that can be withdrawn from liquidity pools within a specific time period. This helps to:
 
-* Prevent panic selling and market manipulation
+* Prevent from the market manipulation
 * Protect liquidity providers
 * Maintain market stability
 * Prevent malicious attacks
@@ -24,7 +24,7 @@ The system uses a "token bucket" algorithm, like a bucket that automatically ref
 
 #### Two Types of Rate Limits
 
-**1. Global Rate Limit (Currently Active)**
+**1. Global Rate Limit**&#x20;
 
 * **Scope**: Restricts total withdrawals of specific assets across all platform users
 * **Protection Goal**: Prevents rapid depletion of liquidity pools, protects the entire ecosystem
@@ -34,11 +34,12 @@ The system uses a "token bucket" algorithm, like a bucket that automatically ref
   * **USDC**: 5 million tokens
 * **Note**: These values are dynamically adjusted based on platform usage. A query page will be available in the future for users to check current thresholds
 
-**2. User Rate Limit (Currently Inactive)**
+**2. Personal Rate Limit**&#x20;
 
-* **Scope**: Restricts withdrawals per individual user address for specific assets
-* **Protection Goal**: Prevents abnormal large operations by single users
-* **Status**: Currently, only global limits are enabled; individual user limits are not yet active
+* **Scope:** Applied to each wallet address
+* **Cycle:** 24-hour rolling window
+* **Limits:** Each address has a unified 24-hour withdrawal quota, while specific thresholds vary by asset and adjust dynamically based on market conditions
+* **Interface Reminder:** When a transaction about to approach the limit, the interface displays a warning message so you can plan withdrawals accordingly
 
 ### What is the Fridge Feature?
 
@@ -152,11 +153,10 @@ A dedicated page will be launched in the future showing:
 
 ### Best Practices
 
-1. **Know the Limits**: Be familiar with current global thresholds (APT 1M, USDT/USDC 5M)
-2. **Spread Operations**: Avoid large one-time withdrawals, especially near threshold limits
-3. **Follow Announcements**: Limit thresholds may be adjusted, stay updated with official announcements
-4. **Be Patient**: The 24-hour freeze period protects the entire ecosystem
-5. **Plan Accordingly**: For large withdrawals, plan ahead and execute in batches
+1. **Spread Operations**: Avoid large one-time withdrawals, especially near threshold limits
+2. **Follow Announcements**: Limit thresholds may be adjusted, stay updated with official announcements
+3. **Be Patient**: The 24-hour freeze period protects the entire ecosystem
+4. **Plan Accordingly**: For large withdrawals, plan ahead and execute in batches
 
 ### Summary
 

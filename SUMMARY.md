@@ -78,7 +78,7 @@
 
 ***
 
-* [Liquidity Withdrawl Rate Limits](asset-withdrawl-rate-limits.md)
+* [Liquidity Withdrawal Rate Limits](asset-withdrawl-rate-limits.md)
 
 ## Resource
 
