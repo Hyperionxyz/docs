@@ -181,7 +181,9 @@ import { AptosConfig } from '@aptos-labs/ts-sdk';
 
 const transaction = await BuildScriptComposerTransaction({
   sender: address,
-  aptosConfig: new AptosConfig({}),
+  aptosConfig: new AptosConfig({
+     network: Network.MAINNET,
+  }),
   builder: async (builder) => {
     await HyperionSDK.Swap.generateAggregateSwapTransactionScript({
       ...aggregatorRoutes,
