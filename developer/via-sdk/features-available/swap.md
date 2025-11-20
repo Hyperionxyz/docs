@@ -198,7 +198,7 @@ const transaction = await BuildScriptComposerTransaction({
 // extract the payload
 const {
   rawTransaction: { payload },
-} = txn as any;
+} = transaction as any;
 
 // submit the transaction
 const { hash } = await walletCore?.signAndSubmitTransaction({
