@@ -125,7 +125,7 @@ const params = {
 };
 
 // 1. est amount and get aggregation info
-const aggregatorRoutes = await HyperionSDK.Swap.estAmountByAggregateSwap(params);
+const aggregatorRoutes = await sdk.Swap.estAmountByAggregateSwap(params);
 /*
 {
   "fromToken": {
@@ -185,7 +185,7 @@ const transaction = await BuildScriptComposerTransaction({
      network: Network.MAINNET,
   }),
   builder: async (builder) => {
-    await HyperionSDK.Swap.generateAggregateSwapTransactionScript({
+    await sdk.Swap.generateAggregateSwapTransactionScript({
       ...aggregatorRoutes,
       builder,
       // custom setting. 
