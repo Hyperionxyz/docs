@@ -22,9 +22,9 @@ The system uses a "token bucket" algorithm, like a bucket that automatically ref
 3. **Automatic Refill**: Limits recover automatically over time
 4. **Accelerated Recovery**: Adding liquidity immediately restores part of the limit
 
-#### Two Types of Rate Limits
+#### Three Types of Rate Limits
 
-**1. Global Rate Limit**&#x20;
+**1. Single-Asset** **Global Rate Limit**&#x20;
 
 * **Scope**: Restricts total withdrawals of specific assets across all platform users
 * **Protection Goal**: Prevents rapid depletion of liquidity pools, protects the entire ecosystem
@@ -34,12 +34,19 @@ The system uses a "token bucket" algorithm, like a bucket that automatically ref
   * **USDC**: 5 million tokens
 * **Note**: These values are dynamically adjusted based on platform usage. A query page will be available in the future for users to check current thresholds
 
-**2. Personal Rate Limit**&#x20;
+**2. Single-Asset** **Personal Rate Limit**&#x20;
 
 * **Scope:** Applied to each wallet address
 * **Cycle:** 24-hour rolling window
 * **Limits:** Each address has a unified 24-hour withdrawal quota, while specific thresholds vary by asset and adjust dynamically based on market conditions
 * **Interface Reminder:** When a transaction about to approach the limit, the interface displays a warning message so you can plan withdrawals accordingly
+
+**3. Global USD-Denominated Withdrawal Limit**
+
+* **Scope:** APT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC and USD1
+* **Cycle:** 24-hour rolling window
+* **Limits:** All withdrawals of the above assets—converted into their USD-equivalent value—share a unified $10M total 24-hour withdrawal quota across the platform. Specific thresholds adjust dynamically based on market conditions.
+* **Note:** A query page will be available in the future for users to check current thresholds.
 
 ### What is the Fridge Feature?
 
