@@ -28,7 +28,7 @@ Key characteristics:
 1. **USD-Based Accounting**\
    Withdrawals are measured in USD value, not by individual token amounts
 2. **Shared Asset Scope**\
-   Supported assets, including APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC and USD1, all draw from the same USD-denominated limits
+   Supported assets, including APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC sUSDe and USD1, all draw from the same USD-denominated limits
 3. **Rolling Window**\
    Limits are calculated over a rolling 24-hour window
 4. **Automatic and Manual Recovery**\
@@ -39,7 +39,7 @@ Key characteristics:
 **1. Global USD-Denominated Withdrawal Limit**
 
 * **Scope**:\
-  APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC, USD1
+  APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC, sUSDe, USD1
 * **Cycle**:\
   24-hour rolling window
 * **Limit**:\
@@ -55,7 +55,7 @@ Key characteristics:
 **2. Personal USD-Denominated Withdrawal Limit**&#x20;
 
 * **Scope**:\
-  APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC, USD1
+  APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC, sUSEe, USD1
 * **Cycle**:\
   24-hour rolling window
 * **Limit**:
