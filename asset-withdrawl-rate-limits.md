@@ -2,7 +2,11 @@
 
 ### Overview
 
-Hyperion DEX implements rate limiting and fridge features to protect the platform and user assets. These features are designed to prevent large-scale rapid liquidity withdrawals while ensuring your funds remain safe at all times.
+Hyperion DEX implements withdrawal rate limits and the Fridge mechanism as a core security measure to protect user assets and platform liquidity.
+
+These mechanisms are primarily designed to mitigate the risk of hacker attacks or other malicious behaviors that could lead to abnormal, large-scale, rapid liquidity withdrawals, which may otherwise threaten the stability of liquidity pools.
+
+By introducing controlled withdrawal limits and a safety buffer mechanism, Hyperion ensures that user funds remain secure, recoverable, and protected, even under extreme or adversarial conditions.
 
 ### What is Rate Limiting?
 
@@ -15,62 +19,74 @@ Rate limiting is a protective mechanism that restricts the amount of assets that
 
 #### How Rate Limiting Works
 
-The system uses a "token bucket" algorithm, like a bucket that automatically refills:
+Hyperion uses a USD-denominated quota system.
 
-1. **Initial Capacity**: Each asset has an initial withdrawal limit
-2. **Using the Limit**: When you remove liquidity, it consumes the limit
-3. **Automatic Refill**: Limits recover automatically over time
-4. **Accelerated Recovery**: Adding liquidity immediately restores part of the limit
+All limited assets are converted into their USD-equivalent value at the time of withdrawal, and the withdrawal amount consumes a USD-based quota
 
-#### Three Types of Rate Limits
+Key characteristics:
 
-**1. Single-Asset** **Global Rate Limit**&#x20;
+1. **USD-Based Accounting**\
+   Withdrawals are measured in USD value, not by individual token amounts
+2. **Shared Asset Scope**\
+   Supported assets, including APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC and USD1, all draw from the same USD-denominated limits
+3. **Rolling Window**\
+   Limits are calculated over a rolling 24-hour window
+4. **Automatic and Manual Recovery**\
+   Withdrawal quotas recover gradually over time as the rolling window advances or, the quotas restore a portion immediately by users adding liquidity (depositing LP).
 
-* **Scope**: Restricts total withdrawals of specific assets across all platform users
-* **Protection Goal**: Prevents rapid depletion of liquidity pools, protects the entire ecosystem
-* **Current Limits** (24-hour period):
-  * **APT**: 1 million tokens
-  * **USDT**: 6 million tokens
-  * **USDC**: 5 million tokens
-* **Note**: These values are dynamically adjusted based on platform usage. A query page will be available in the future for users to check current thresholds
+#### Types of Withdrawal Rate Limits
 
-**2. Single-Asset** **Personal Rate Limit**&#x20;
+**1. Global USD-Denominated Withdrawal Limit**
 
-* **Scope:** Applied to each wallet address
-* **Cycle:** 24-hour rolling window
-* **Limits:** Each address has a unified 24-hour withdrawal quota, while specific thresholds vary by asset and adjust dynamically based on market conditions
-* **Interface Reminder:** When a transaction about to approach the limit, the interface displays a warning message so you can plan withdrawals accordingly
+* **Scope**:\
+  APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC, USD1
+* **Cycle**:\
+  24-hour rolling window
+* **Limit**:\
+  All withdrawals of the above assets—converted to USD—share a **unified platform-wide withdrawal quota**.
+* **Effect**:\
+  When the global USD-denominated withdrawal limit is reached:
+  * Liquidity removal and position-closing operations from **all users** are affected
+  * Withdrawn funds are routed into the **Fridge** instead of being immediately received
+* **Note**:\
+  The Threshold, currently $5 million USD, is dynamically adjusted based on platform conditions.\
+  A public query page will be introduced in the future.
 
-**3. Global USD-Denominated Withdrawal Limit**
+**2. Personal USD-Denominated Withdrawal Limit**&#x20;
 
-* **Scope:** APT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC and USD1
-* **Cycle:** 24-hour rolling window
-* **Limits:** All withdrawals of the above assets—converted into their USD-equivalent value—share a unified $10M total 24-hour withdrawal quota across the platform. Specific thresholds adjust dynamically based on market conditions.
-* **Note:** A query page will be available in the future for users to check current thresholds.
+* **Scope**:\
+  APT, goAPT, kAPT, amAPT, wBTC, xBTC, aBTC, RION, USDT, USDC, USD1
+* **Cycle**:\
+  24-hour rolling window
+* **Limit**:
+  * $50,000 USD by default
+  * $500,000 USD after activating Hyperauth
+* **Effect**:\
+  When a personal USD-denominated withdrawal limit is reached:
+  * The user cannot continue withdrawing liquidity
+  * The transaction is blocked
+  * The user must wait for the personal quota to recover, or deposit LP to restore the quota
+* **Interface Reminder**:\
+  The interface displays a warning when a withdrawal approaches the personal limit.
 
-### What is the Fridge Feature?
+### What is the Fridge?
 
-When your transaction exceeds rate limits, your funds don't disappear - they're safely stored in the "fridge". This ensures your funds remain secure even when rate limits are triggered.
+The Fridge is a safety mechanism that temporarily stores withdrawn funds when the global USD-denominated withdrawal limit has been reached.
+
+It ensures that funds remain secure and fully claimable once limits recover.
 
 #### How the Fridge Works
 
-1. **Trigger Condition**: When you try to remove liquidity but exceed rate limits
-2. **Automatic Storage**: Your funds are automatically stored in your personal fridge
-3. **Freeze Period**: Funds are frozen for 24 hours (default)
-4. **Claiming Funds**: After the freeze period, you can claim your funds anytime
+1. **Trigger Condition**\
+   The Fridge is triggered only when the global USD-denominated withdrawal limit is reached
+2. **Automatic Storage**\
+   Affected withdrawal amounts are automatically placed into the Fridge
+3. **Freeze Period**\
+   Funds are frozen for 24 hours by default.
+4. **Claiming Funds**\
+   After the freeze period ends, funds can be claimed at any time
 
-### How to Use These Features
-
-#### When Rate Limits are Triggered
-
-If your transaction triggers rate limits:
-
-1. **Don't worry**: Your funds are safe
-2. **Check the fridge**: You'll see a new "box" in your fridge
-3. **Note the information**:
-   * Box ID
-   * Amount of tokens frozen
-   * Release time (usually 24 hours later)
+> Personal USD-denominated withdrawal limits do not trigger the Fridge.
 
 #### Claiming Funds from the Fridge
 
@@ -103,34 +119,20 @@ You can always check:
 
 ### Frequently Asked Questions
 
-#### 1. Why was my transaction limited?
+#### 1. Why was my withdrawal blocked?
 
-Since only global limits are currently active, your transaction was limited because:
+Your personal USD-denominated withdrawal limit was reached.\
+In this case, withdrawals are blocked and will not enter the Fridge.
 
-* The platform's 24-hour withdrawal volume for the asset is approaching or has reached the threshold
-* Your withdrawal amount would cause the global limit to be exceeded
-* For example: If APT withdrawals are approaching 1 million tokens in 24 hours, your large withdrawal may be restricted
+#### 2. How can I avoid being blocked?
 
-#### 2. How can I avoid triggering rate limits?
-
-* **Check Status**: Before large operations, check the platform's remaining quota (feature coming soon)
-* **Batch Operations**: Split large withdrawals into smaller transactions
-* **Avoid Peak Times**: Choose periods with less platform activity
-* **Balanced Operations**: Adding liquidity helps restore global limits
-
-#### 3. What privileges do whitelisted users have?
-
-Whitelisted users (like market makers or partners) can:
-
-* Completely bypass rate limits
-* No withdrawal restrictions
-* No need to use the fridge feature
+* **Balance Operations**: Adding liquidity helps restore personal limits
+* **Activate Hyperauth:** After activating Hyperauth, your wallet address will get a far larger personal withdrawal limit of $500,000 USD
 
 #### 4. Can the freeze period be shortened?
 
 * Default freeze period is 24 hours
-* Regular users cannot change freeze time
-* In emergencies, administrators can assist
+* In emergencies, please open a ticket and tag admins in Hyperion [Discord](https://discord.com/invite/MYex8tHXtN)
 
 #### 5. Are my funds safe in the fridge?
 
@@ -141,35 +143,12 @@ Yes, absolutely safe:
 * All operations are logged with events
 * Administrators can only intervene in emergencies
 
-#### 6. Do global limits affect all operations?
+#### 6. Do withdrawal limits affect all operations?
 
 No, global limits only affect liquidity removal operations:
 
 * **Not affected**: Trading (Swap), adding liquidity
 * **Affected**: Removing liquidity, closing positions
-* This design protects liquidity pools while maintaining normal trading
-
-#### 7. How can I check current global limit status?
-
-A dedicated page will be launched in the future showing:
-
-* 24-hour limit thresholds for each asset
-* Currently used quota
-* Remaining available quota
-* Limit recovery countdown
-
-### Best Practices
-
-1. **Spread Operations**: Avoid large one-time withdrawals, especially near threshold limits
-2. **Follow Announcements**: Limit thresholds may be adjusted, stay updated with official announcements
-3. **Be Patient**: The 24-hour freeze period protects the entire ecosystem
-4. **Plan Accordingly**: For large withdrawals, plan ahead and execute in batches
-
-### Summary
-
-Rate limiting and fridge features are important security features of Hyperion DEX. They protect platform stability while ensuring your funds remain safe and accessible. By understanding and properly using these features, you can better manage your liquidity operations while contributing to the healthy development of the entire ecosystem.
-
-Remember: These limits aren't obstacles - they're protections. They ensure long-term market stability and benefit all participants.
 
 
 
