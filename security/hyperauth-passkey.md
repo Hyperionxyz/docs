@@ -42,10 +42,11 @@ Before you start please make sure
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-2.  Click the "Shield: icon
+2. Click the "Shield: icon
 
-    <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
-3. Click "Create Your First Passkey"
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+
+2. Click "Create Your First Passkey"
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
@@ -56,6 +57,14 @@ Before you start please make sure
 5. Follow the next steps to complete the Hyperauth Creation
 
 ### FAQ
+
+#### Since Passkey is not supported on mobile devices, how can I withdraw large amount of liquidity on mobile?
+
+If you want to withdraw in a short period of time an amount larger than $50K USD worth of asset on mobile & without Hyperauth, please directly withdraw.
+
+When the limit is reached, a temporary withdrawal freeze is automatically triggered as a security measure.
+
+Please wait 24 hours. After the cooldown period ends, your funds will be automatically unlocked and credited back to your account. No further action is required from your side.
 
 #### Error "PasskeyError: This device of web browser does not support passkey. Please use a different device or web browser"
 
