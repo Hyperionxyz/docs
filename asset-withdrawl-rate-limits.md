@@ -63,9 +63,8 @@ Key characteristics:
   * $500,000 USD after activating Hyperauth
 * **Effect**:\
   When a personal USD-denominated withdrawal limit is reached:
-  * The user cannot continue withdrawing liquidity
-  * The transaction is blocked
   * The user must wait for the personal quota to recover, or deposit LP to restore the quota
+  * If user insist on withdrawing the funds, withdrawn funds are routed into the **Fridge** instead of being immediately received
 * **Interface Reminder**:\
   The interface displays a warning when a withdrawal approaches the personal limit.
 
@@ -78,7 +77,7 @@ It ensures that funds remain secure and fully claimable once limits recover.
 #### How the Fridge Works
 
 1. **Trigger Condition**\
-   The Fridge is triggered only when the global USD-denominated withdrawal limit is reached
+   The Fridge is triggered when the withdrawal limit is reached
 2. **Automatic Storage**\
    Affected withdrawal amounts are automatically placed into the Fridge
 3. **Freeze Period**\
@@ -119,22 +118,25 @@ You can always check:
 
 ### Frequently Asked Questions
 
-#### 1. Why was my withdrawal blocked?
+#### 1. Why was my withdrawal frozen?
 
-Your personal USD-denominated withdrawal limit was reached.\
-In this case, withdrawals are blocked and will not enter the Fridge.
+Your withdrawal was frozen because it exceeded your Personal Liquidity Withdrawal Limit.
 
-#### 2. How can I avoid being blocked?
+When this limit is reached, a temporary withdrawal freeze is automatically triggered as a security measure.
+
+Please wait 24 hours. After the cooldown period ends, your funds will be automatically unlocked and credited back to your account. No further action is required from your side.
+
+#### 2. How can I avoid being frozen?
 
 * **Balance Operations**: Adding liquidity helps restore personal limits
 * **Activate Hyperauth:** After activating Hyperauth, your wallet address will get a far larger personal withdrawal limit of $500,000 USD
 
-#### 4. Can the freeze period be shortened?
+#### 3. Can the freeze period be shortened?
 
 * Default freeze period is 24 hours
 * In emergencies, please open a ticket and tag admins in Hyperion [Discord](https://discord.com/invite/MYex8tHXtN)
 
-#### 5. Are my funds safe in the fridge?
+#### 4. Are my funds safe in the fridge?
 
 Yes, absolutely safe:
 
@@ -143,9 +145,9 @@ Yes, absolutely safe:
 * All operations are logged with events
 * Administrators can only intervene in emergencies
 
-#### 6. Do withdrawal limits affect all operations?
+#### 5. Do withdrawal limits affect all operations?
 
-No, global limits only affect liquidity removal operations:
+No, withdrawal limits only affect liquidity removal operations:
 
 * **Not affected**: Trading (Swap), adding liquidity
 * **Affected**: Removing liquidity, closing positions
