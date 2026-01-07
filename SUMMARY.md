@@ -75,10 +75,8 @@
 ## Security
 
 * [Audits](security/audits.md)
-
-***
-
-* [Liquidity Withdrawal Rate Limits](asset-withdrawl-rate-limits.md)
+* [Liquidity Withdrawal Rate Limits](security/asset-withdrawl-rate-limits.md)
+* [Hyperauth (Passkey)](security/hyperauth-passkey.md)
 
 ## Resource
 

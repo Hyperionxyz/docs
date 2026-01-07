@@ -154,4 +154,4 @@ No, withdrawal limits only affect liquidity removal operations:
 
 
 
-{% include ".gitbook/includes/disclaimer-description-on-footer.md" %}
+{% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

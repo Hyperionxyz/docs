@@ -76,11 +76,9 @@ If Alice chooses to extend her lock by another 8 weeks during Week 2, her xRION 
 ### Utilities
 
 * **Staking**:\
-  By staking RION, users automatically participate and hold xRION and become eligible for xRION staking rewards. These rewards are supported by the treasury of the Hyperion platform and made available on a discretionary basis – further details on the reward program and updates thereto will be published from time to time via official channels. They are a way to give back to the community, sharing the benefits of the growth of the platform.\
-
+  By staking RION, users automatically participate and hold xRION and become eligible for xRION staking rewards. These rewards are supported by the treasury of the Hyperion platform and made available on a discretionary basis – further details on the reward program and updates thereto will be published from time to time via official channels. They are a way to give back to the community, sharing the benefits of the growth of the platform.<br>
 * **Governance**:\
-  Following the formal establishment of the Hyperion DAO, xRION will enable holders to participate in platform proposals and voting within the DAO. Voting rights will be based on the amount of xRION held, in accordance with the governance framework defined by the DAO (when the DAO is established).\
-
+  Following the formal establishment of the Hyperion DAO, xRION will enable holders to participate in platform proposals and voting within the DAO. Voting rights will be based on the amount of xRION held, in accordance with the governance framework defined by the DAO (when the DAO is established).<br>
 * **Launchpad Participation**:\
   xRION balances may be used as a whitelist requirement or for calculating allocation quotas for launchpool participation on the Hyperion launchpad.
 

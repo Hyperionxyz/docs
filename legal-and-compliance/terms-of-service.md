@@ -2,8 +2,7 @@
 
 Last Updated: February 17, 2025
 
-These Terms of Service (the “Agreement”) explains the terms and conditions by which you may access and use “[Website](https://hyperion.xyz/)” and any subdomains associated with the Website. You must read this Agreement carefully as it governs your use of the Website. By accessing or using the Website, you signify that you have read, understand, and agree to be bound by this Agreement in its entirety. If you do not agree, you are not authorized to access or use the Website and should not use the Website.\
-
+These Terms of Service (the “Agreement”) explains the terms and conditions by which you may access and use “[Website](https://hyperion.xyz/)” and any subdomains associated with the Website. You must read this Agreement carefully as it governs your use of the Website. By accessing or using the Website, you signify that you have read, understand, and agree to be bound by this Agreement in its entirety. If you do not agree, you are not authorized to access or use the Website and should not use the Website.<br>
 
 **NOTICE: This Agreement contains important information which impact your rights as to how disputes are resolved. The Website is only available to you — and you should only access the Website — if you agree completely with these terms.**
 
@@ -219,7 +218,6 @@ You agree that the laws of Hong Kong, without regard to principles of conflict o
 
 These terms including any supplementary terms to this Terms of Service constitute the entire agreement between you and us with respect to the subject matter hereof. This Agreement supersedes any and all prior or contemporaneous written and oral agreements, communications and other understandings (if any) relating to the subject matter of the terms.
 
-\
-
+<br>
 
 {% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}

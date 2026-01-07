@@ -34,8 +34,7 @@ The information set out in the Whitepaper and the Website is for community discu
 
 The Company, the Distributor and the Hyperion Project Contributors do not and do not purport to make, and hereby disclaims, all representations, warranties or undertaking to any entity or person (including without limitation warranties as to the accuracy, completeness, timeliness, or reliability of the contents of the Whitepaper or the Website, or any other materials published by the Company or the Distributor). To the maximum extent permitted by law, the Company, the Distributor, their respective affiliates and service providers shall not be liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract or otherwise (including, without limitation, any liability arising from default or negligence on the part of any of them, or any loss of revenue, income or profits, and loss of use or data) arising from the use of the Whitepaper or the Website, or any other materials published, or its contents (including without limitation any errors or omissions) or otherwise arising in connection with the same. Prospective acquirors of RION should carefully consider and evaluate all risks and uncertainties (including financial and legal risks and uncertainties) associated with the distribution of RION, the Company, the Distributor and the Hyperion Project Contributors.
 
-\
-
+<br>
 
 RION Token: RION are designed to be utilised, and that is the goal of the RION distribution. In particular, it is highlighted that RION:
 
