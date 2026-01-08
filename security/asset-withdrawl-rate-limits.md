@@ -59,7 +59,7 @@ Key characteristics:
 * **Cycle**:\
   24-hour rolling window
 * **Limit**:
-  * $50,000 USD by default
+  * $200,000 USD by default
   * $500,000 USD after activating Hyperauth
 * **Effect**:\
   When a personal USD-denominated withdrawal limit is reached:
@@ -67,6 +67,8 @@ Key characteristics:
   * If user insist on withdrawing the funds, withdrawn funds are routed into the **Fridge** instead of being immediately received
 * **Interface Reminder**:\
   The interface displays a warning when a withdrawal approaches the personal limit.
+* **Note**:\
+  The Threshold is dynamically adjusted based on platform conditions.
 
 ### What is the Fridge?
 
