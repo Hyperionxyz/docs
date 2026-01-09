@@ -60,7 +60,7 @@ Before you start please make sure
 
 #### Since Passkey is not supported on mobile devices, how can I withdraw large amount of liquidity on mobile?
 
-If you want to withdraw in a short period of time an amount larger than $50K USD worth of asset on mobile & without Hyperauth, please directly withdraw.
+If you want to withdraw in a short period of time an amount larger than $200K USD worth of asset on mobile & without Hyperauth, please directly withdraw.
 
 When the limit is reached, a temporary withdrawal freeze is automatically triggered as a security measure.
 
