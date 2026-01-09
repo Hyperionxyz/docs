@@ -37,10 +37,6 @@ Users earn DRIPs based on the trading fees they generate. Each $0.01 in fees con
 * APT/kAPT (0.01%)
 * USD1/USDC (0.01%)
 * sUSDe/USDC (0.01%)
-* 🕒 Enabled for a Limited Time - xBTC/uniBTC (0.01%)
-* 🕒 Enabled for a Limited Time - brBTC/uniBTC (0.01%)
-* 🕒 Enabled for a Limited Time - USDC/uniBTC (0.05%)
-* 🕒 Enabled for a Limited Time - APT/AMI (0.1%)
 
 **Example Calculation (APT/USDT Pool, 0.05% Fee Tier):**
 
@@ -71,10 +67,6 @@ Liquidity providers earn DRIPs based on the size and type of pool they supply li
 * APT/kAPT (0.01%)
 * USD1/USDC (0.01%)
 * sUSDe/USDC (0.01%)
-* 🕒 Enabled for a Limited Time - xBTC/uniBTC (0.01%)
-* 🕒 Enabled for a Limited Time - brBTC/uniBTC (0.01%)
-* 🕒 Enabled for a Limited Time - USDC/uniBTC (0.05%)
-* 🕒 Enabled for a Limited Time - APT/AMI (0.1%)
 
 **Example Calculation (APT/USDT Pool):**
 
@@ -82,17 +74,21 @@ Provide $500 liquidity → (500 ÷ 100) × 1 = **5 DRIPs per day**
 
 ***
 
-### C. RION Bonus Program
+### C. Special Boosts
 
-To further boost RION’s utility, DRIPs are awarded for trading, LP, and locking RION tokens.
+DRIPs are awarded for trading and LP certain tokens in a limited time period.
 
-#### RION Incentives
+#### Boost Details
 
-| Action                        | DRIP Reward                        |
-| ----------------------------- | ---------------------------------- |
-| Trade in APT/RION             | 3 DRIPs per $0.01 in fees          |
-| Provide liquidity in APT/RION | 3 DRIPs per $100 liquidity per day |
+| Action            | DRIP Reward                        |
+| ----------------- | ---------------------------------- |
+| Trade             | 3 DRIPs per $0.01 in fees          |
+| Provide liquidity | 3 DRIPs per $100 liquidity per day |
 
+#### Applicable Pairs
 
+* APT/RION (0.3%)
+* APT/USDC (0.5%)
+* sUSDE/USDC (0.01)
 
 {% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}
