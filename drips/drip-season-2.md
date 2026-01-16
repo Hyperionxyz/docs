@@ -35,6 +35,7 @@ Users earn DRIPs based on the trading fees they generate. Each $0.01 in fees con
 * WBTC/xBTC (0.01%)
 * APT/WBTC (0.05%)
 * APT/kAPT (0.01%)
+* APT/goAPT (0.01%)
 * USD1/USDC (0.01%)
 * sUSDe/USDC (0.01%)
 
@@ -65,6 +66,7 @@ Liquidity providers earn DRIPs based on the size and type of pool they supply li
 * WBTC/xBTC (0.01%)
 * APT/WBTC (0.05%)
 * APT/kAPT (0.01%)
+* APT/goAPT (0.01%)
 * USD1/USDC (0.01%)
 * sUSDe/USDC (0.01%)
 
