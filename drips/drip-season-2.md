@@ -90,6 +90,7 @@ DRIPs are awarded for trading and LP certain tokens in a limited time period.
 #### Applicable Pairs
 
 * APT/RION (0.3%)
+* APT/PACT (0.3%)
 * APT/USDC (0.5%)
 * sUSDE/USDC (0.01)
 
