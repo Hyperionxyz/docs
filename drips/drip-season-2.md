@@ -82,10 +82,19 @@ DRIPs are awarded for trading and LP certain tokens in a limited time period.
 
 #### Boost Details
 
+APT/RION
+
 | Action            | DRIP Reward                        |
 | ----------------- | ---------------------------------- |
 | Trade             | 3 DRIPs per $0.01 in fees          |
 | Provide liquidity | 3 DRIPs per $100 liquidity per day |
+
+Others
+
+| Action            | DRIP Reward                        |
+| ----------------- | ---------------------------------- |
+| Trade             | 1 DRIPs per $0.01 in fees          |
+| Provide liquidity | 1 DRIPs per $100 liquidity per day |
 
 #### Applicable Pairs
 
