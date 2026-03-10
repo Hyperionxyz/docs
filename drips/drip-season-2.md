@@ -102,5 +102,6 @@ Others
 * APT/PACT (0.3%)
 * APT/USDC (0.5%)
 * sUSDE/USDC (0.01%)
+* APT/AMI (0.1%)
 
 {% include "../.gitbook/includes/disclaimer-description-on-footer.md" %}
