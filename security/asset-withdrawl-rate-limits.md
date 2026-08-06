@@ -49,8 +49,7 @@ Key characteristics:
   * Liquidity removal and position-closing operations from **all users** are affected
   * Withdrawn funds are routed into the **Fridge** instead of being immediately received
 * **Note**:\
-  The Threshold, currently $5 million USD, is dynamically adjusted based on platform conditions.\
-  A public query page will be introduced in the future.
+  The Threshold is dynamically adjusted based on platform conditions.
 
 **2. Personal USD-Denominated Withdrawal Limit**&#x20;
 
@@ -59,8 +58,8 @@ Key characteristics:
 * **Cycle**:\
   24-hour rolling window
 * **Limit**:
-  * $200,000 USD by default
-  * $500,000 USD after activating Hyperauth
+  * $10,000 USD by default
+  * $100,000 USD after activating Hyperauth
 * **Effect**:\
   When a personal USD-denominated withdrawal limit is reached:
   * The user must wait for the personal quota to recover, or deposit LP to restore the quota
